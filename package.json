@@ -3,10 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-info": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@types/storybook__react": "^4.0.2",
+    "babel-loader": "^8.0.6",
     "husky": "^2.4.1",
+    "jest": "^24.8.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
-    "react-scripts": "3.0.1"
+    "react-docgen-typescript-loader": "^3.1.0",
+    "react-scripts": "3.0.1",
+    "ts-jest": "^24.0.2"
   },
   "dependencies": {
     "@types/jest": "^24.0.15",
@@ -22,7 +32,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}"
+    "prettier": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "husky": {
     "hooks": {
