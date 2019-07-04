@@ -61,16 +61,30 @@ storiesOf('PromptPart', module)
     </div>
   ));
 
-storiesOf('Prompt', module).add('basic 8 colors', () => (
-  <Prompt
-    promptParts={[
-      { label: 'black', fgColor: 'white', bgColor: 'black' },
-      { label: 'red', fgColor: 'white', bgColor: 'red' },
-      { label: 'green', fgColor: 'white', bgColor: 'green' },
-      { label: 'yellow', fgColor: 'white', bgColor: 'yellow' },
-      { label: 'blue', fgColor: 'white', bgColor: 'blue' },
-    ]}
-    onDelete={action('onDelete')}
-    onDragEnd={action('onDragEnd')}
-  />
-));
+storiesOf('Prompt', module)
+  .add('basic 8 fgcolors', () => (
+    <Prompt
+      promptParts={[
+        { label: 'black', fgColor: 'white', bgColor: 'black' },
+        { label: 'red', fgColor: 'white', bgColor: 'red' },
+        { label: 'green', fgColor: 'white', bgColor: 'green' },
+        { label: 'yellow', fgColor: 'white', bgColor: 'yellow' },
+        { label: 'blue', fgColor: 'white', bgColor: 'blue' },
+      ]}
+      onDelete={action('onDelete')}
+      onDragEnd={action('onDragEnd')}
+    />
+  ))
+  .add('basic 8 bgcolors', () => (
+    <Prompt
+      promptParts={[
+        { label: 'black', fgColor: 'black', bgColor: 'white' },
+        { label: 'red', fgColor: 'red', bgColor: 'white' },
+        { label: 'green', fgColor: 'green', bgColor: 'white' },
+        { label: 'yellow', fgColor: 'yellow', bgColor: 'white' },
+        { label: 'blue', fgColor: 'blue', bgColor: 'white' },
+      ]}
+      onDelete={action('onDelete')}
+      onDragEnd={action('onDragEnd')}
+    />
+  ));
