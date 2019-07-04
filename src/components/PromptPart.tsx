@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Chip from '@material-ui/core/Chip';
 import CancelICon from '@material-ui/icons/Cancel';
 
 import { Color } from '../types';

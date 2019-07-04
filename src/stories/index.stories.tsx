@@ -4,31 +4,8 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 // import { linkTo } from '@storybook/addon-links';
 
-import { RoundedButton } from '../components/RoundedButton';
 import PromptPart from '../components/PromptPart';
 import Prompt from '../components/Prompt';
-
-storiesOf('RoundedButton', module)
-  .add(
-    'with text',
-    () => (
-      <RoundedButton color="hotpink" onClick={action('clicked')}>
-        Hello Button
-      </RoundedButton>
-    ),
-    { info: { inline: true } }
-  )
-  .add(
-    'with some emoji',
-    () => (
-      <RoundedButton color="papayawhip" onClick={action('clicked')}>
-        <span role="img" aria-label="so cool">
-          😀 😎 👍 💯
-        </span>
-      </RoundedButton>
-    ),
-    { info: { inline: true } }
-  );
 
 storiesOf('PromptPart', module)
   .add('basic 8 colors', () => (
@@ -61,7 +38,8 @@ storiesOf('PromptPart', module)
     </div>
   ));
 
-storiesOf('Prompt', module)
+// FIXME: Storyshots will never pass (due to ref?)
+storiesOf('⚠️Prompt', module)
   .add('basic 8 fgcolors', () => (
     <Prompt
       promptParts={[
