@@ -1,4 +1,5 @@
 import React from 'react';
+import 'typeface-roboto';
 import logo from './logo.svg';
 import './App.css';
 

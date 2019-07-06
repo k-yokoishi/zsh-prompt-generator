@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Typography from '@material-ui/core/Typography';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
 import PromptPart from './PromptPart';
 import { Color } from '../types';
@@ -62,7 +63,8 @@ class PromptPartView extends React.Component<Props, State> {
       <DragDropContext onDragEnd={this.onDragEnd}>
         <Droppable direction="horizontal" droppableId="prompt-part-view">
           {(provided, snapshot) => (
-            <div
+            <Typography
+              component="div"
               ref={provided.innerRef}
               {...provided.droppableProps}
               style={{
@@ -77,7 +79,8 @@ class PromptPartView extends React.Component<Props, State> {
               {this.state.promptParts.map(({ label, fgColor, bgColor, selected = false }, i) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {(provided, snapshot) => (
-                    <div
+                    <Typography
+                      component="div"
                       ref={provided.innerRef}
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
@@ -89,12 +92,12 @@ class PromptPartView extends React.Component<Props, State> {
                         selected={selected}
                         onDelete={onDelete}
                       />
-                    </div>
+                    </Typography>
                   )}
                 </Draggable>
               ))}
               {provided.placeholder}
-            </div>
+            </Typography>
           )}
         </Droppable>
       </DragDropContext>

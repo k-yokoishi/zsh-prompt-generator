@@ -1,3 +1,6 @@
+export const getColor = (color: string | number) =>
+  typeof color === 'string' ? color : xtermColors[color];
+
 // Xterm 256 colors
 // https://jonasjacek.github.io/colors/
 export const xtermColors = [
