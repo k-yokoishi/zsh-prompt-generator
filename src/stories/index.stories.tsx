@@ -8,6 +8,18 @@ import PromptPart from '../components/PromptPart';
 import Prompt from '../components/Prompt';
 
 storiesOf('PromptPart', module)
+  .add('basic', () => (
+    <PromptPart label="white" fgColor="magenta" bgColor="black" onDelete={action('deleted')} />
+  ))
+  .add('selected', () => (
+    <PromptPart
+      label="white"
+      fgColor="magenta"
+      bgColor="black"
+      selected
+      onDelete={action('deleted')}
+    />
+  ))
   .add('basic 8 colors', () => (
     <div>
       <PromptPart label="black" fgColor="white" bgColor="black" onDelete={action('deleted')} />
@@ -46,7 +58,7 @@ storiesOf('⚠️Prompt', module)
         { label: 'black', fgColor: 'white', bgColor: 'black' },
         { label: 'red', fgColor: 'white', bgColor: 'red' },
         { label: 'green', fgColor: 'white', bgColor: 'green' },
-        { label: 'yellow', fgColor: 'white', bgColor: 'yellow' },
+        { label: 'yellow', fgColor: 'white', bgColor: 'yellow', selected: true },
         { label: 'blue', fgColor: 'white', bgColor: 'blue' },
       ]}
       onDelete={action('onDelete')}
@@ -59,7 +71,7 @@ storiesOf('⚠️Prompt', module)
         { label: 'black', fgColor: 'black', bgColor: 'white' },
         { label: 'red', fgColor: 'red', bgColor: 'white' },
         { label: 'green', fgColor: 'green', bgColor: 'white' },
-        { label: 'yellow', fgColor: 'yellow', bgColor: 'white' },
+        { label: 'yellow', fgColor: 'yellow', bgColor: 'white', selected: true },
         { label: 'blue', fgColor: 'blue', bgColor: 'white' },
       ]}
       onDelete={action('onDelete')}

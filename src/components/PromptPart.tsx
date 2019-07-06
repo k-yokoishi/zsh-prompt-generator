@@ -8,23 +8,28 @@ export interface Props {
   label: string;
   fgColor: Color | number;
   bgColor: Color | number;
+  selected?: boolean;
   onDelete?: (event: any) => void;
 }
 
 export default function PromptPart(props: Props) {
-  const { label, fgColor, bgColor, onDelete } = props;
+  const { label, fgColor, bgColor, selected = false, onDelete } = props;
 
   return (
     <div
       style={{
-        height: '32px',
-        minWidth: '44px',
-        margin: '2px',
-        color: typeof fgColor === 'string' ? fgColor : xtermColors[fgColor],
-        backgroundColor: typeof bgColor === 'string' ? bgColor : xtermColors[bgColor],
-        borderRadius: 25,
-        display: 'inline-flex',
-        alignItems: 'center',
+        ...{
+          height: '32px',
+          minWidth: '44px',
+          margin: '2px',
+          border: 'solid 2px',
+          color: typeof fgColor === 'string' ? fgColor : xtermColors[fgColor],
+          backgroundColor: typeof bgColor === 'string' ? bgColor : xtermColors[bgColor],
+          borderRadius: 25,
+          display: 'inline-flex',
+          alignItems: 'center',
+        },
+        ...(selected ? { border: 'solid 4px cyan' } : {}),
       }}
     >
       <span style={{ fontSize: '13px', padding: '1px 12px 0px' }}>{label}</span>

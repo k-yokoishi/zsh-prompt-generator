@@ -1,5 +1,416 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots PromptPart basic 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "border": "solid 2px",
+          "borderRadius": 25,
+          "color": "magenta",
+          "display": "inline-flex",
+          "height": "32px",
+          "margin": "2px",
+          "minWidth": "44px",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "fontSize": "13px",
+            "padding": "1px 12px 0px",
+          }
+        }
+      >
+        white
+      </span>
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        onClick={[Function]}
+        role="presentation"
+        style={
+          Object {
+            "color": "magenta",
+            "cursor": "pointer",
+            "margin": "0px 5px 0px -8px",
+          }
+        }
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+        />
+      </svg>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            PromptPart
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            basic
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  PromptPart
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      label
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          white
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      fgColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          magenta
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      bgColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          black
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      onDelete
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }
+                        >
+                          actionHandler
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              PromptPart
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots PromptPart basic 8 colors 1`] = `
 <div>
   <div
@@ -16,6 +427,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "black",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -60,6 +472,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "red",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -104,6 +517,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "green",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -148,6 +562,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "yellow",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -192,6 +607,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "blue",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -236,6 +652,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "red",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -280,6 +697,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "cyan",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "white",
             "display": "inline-flex",
@@ -324,6 +742,7 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "white",
+            "border": "solid 2px",
             "borderRadius": 25,
             "color": "black",
             "display": "inline-flex",
@@ -1821,6 +2240,428 @@ exports[`Storyshots PromptPart basic 8 colors 1`] = `
 </div>
 `;
 
+exports[`Storyshots PromptPart selected 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "border": "solid 4px cyan",
+          "borderRadius": 25,
+          "color": "magenta",
+          "display": "inline-flex",
+          "height": "32px",
+          "margin": "2px",
+          "minWidth": "44px",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "fontSize": "13px",
+            "padding": "1px 12px 0px",
+          }
+        }
+      >
+        white
+      </span>
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        onClick={[Function]}
+        role="presentation"
+        style={
+          Object {
+            "color": "magenta",
+            "cursor": "pointer",
+            "margin": "0px 5px 0px -8px",
+          }
+        }
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+        />
+      </svg>
+    </div>
+  </div>
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    className="info__overlay"
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      className="info__close-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#027ac5",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "black",
+            "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            PromptPart
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            selected
+          </h2>
+        </div>
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  PromptPart
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      label
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          white
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      fgColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          magenta
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      bgColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          black
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      selected
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      onDelete
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }
+                        >
+                          actionHandler
+                        </span>
+                        }
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h3
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              PromptPart
+              " Component
+            </h3>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots PromptPart xterm 256 colors 1`] = `
 <div>
   <div
@@ -1838,6 +2679,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#000000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -1882,6 +2724,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#800000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -1926,6 +2769,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#008000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -1970,6 +2814,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#808000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2014,6 +2859,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#000080",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2058,6 +2904,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#800080",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2102,6 +2949,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#008080",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2146,6 +2994,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#c0c0c0",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2192,6 +3041,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#808080",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2236,6 +3086,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff0000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2280,6 +3131,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2324,6 +3176,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2368,6 +3221,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0000ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2412,6 +3266,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff00ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2456,6 +3311,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2500,6 +3356,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2546,6 +3403,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#000000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2590,6 +3448,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2634,6 +3493,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#000087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2678,6 +3538,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0000af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2722,6 +3583,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0000d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2766,6 +3628,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0000ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2810,6 +3673,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2854,6 +3718,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2900,6 +3765,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2944,6 +3810,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -2988,6 +3855,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3032,6 +3900,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#005fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3076,6 +3945,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#008700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3120,6 +3990,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3164,6 +4035,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#008787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3208,6 +4080,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0087af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3254,6 +4127,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0087d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3298,6 +4172,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#0087ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3342,6 +4217,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00af00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3386,6 +4262,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00af5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3430,6 +4307,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00af87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3474,6 +4352,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00afaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3518,6 +4397,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00afd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3562,6 +4442,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00afff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3608,6 +4489,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3652,6 +4534,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3696,6 +4579,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3740,6 +4624,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3784,6 +4669,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3828,6 +4714,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00d7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3872,6 +4759,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3916,6 +4804,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -3962,6 +4851,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4006,6 +4896,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4050,6 +4941,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4094,6 +4986,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#00ffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4138,6 +5031,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f0000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4182,6 +5076,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4226,6 +5121,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f0087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4270,6 +5166,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f00af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4316,6 +5213,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f00d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4360,6 +5258,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f00ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4404,6 +5303,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4448,6 +5348,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4492,6 +5393,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4536,6 +5438,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4580,6 +5483,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4624,6 +5528,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f5fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4670,6 +5575,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f8700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4714,6 +5620,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4758,6 +5665,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f8787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4802,6 +5710,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f87af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4846,6 +5755,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f87d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4890,6 +5800,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5f87ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4934,6 +5845,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5faf00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -4978,6 +5890,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5faf5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5024,6 +5937,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5faf87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5068,6 +5982,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fafaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5112,6 +6027,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fafd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5156,6 +6072,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fafff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5200,6 +6117,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5244,6 +6162,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5288,6 +6207,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5332,6 +6252,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5378,6 +6299,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5422,6 +6344,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fd7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5466,6 +6389,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5510,6 +6434,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5554,6 +6479,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5598,6 +6524,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5642,6 +6569,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5686,6 +6614,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#5fffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5732,6 +6661,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#870000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5776,6 +6706,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5820,6 +6751,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#870087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5864,6 +6796,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8700af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5908,6 +6841,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8700d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5952,6 +6886,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8700ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -5996,6 +6931,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6040,6 +6976,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6086,6 +7023,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6130,6 +7068,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6174,6 +7113,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6218,6 +7158,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#875fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6262,6 +7203,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#878700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6306,6 +7248,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6350,6 +7293,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#878787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6394,6 +7338,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8787af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6440,6 +7385,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8787d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6484,6 +7430,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8787ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6528,6 +7475,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87af00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6572,6 +7520,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87af5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6616,6 +7565,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87af87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6660,6 +7610,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87afaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6704,6 +7655,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87afd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6748,6 +7700,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87afff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6794,6 +7747,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6838,6 +7792,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6882,6 +7837,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6926,6 +7882,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -6970,6 +7927,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7014,6 +7972,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87d7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7058,6 +8017,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7102,6 +8062,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7148,6 +8109,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7192,6 +8154,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7236,6 +8199,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7280,6 +8244,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#87ffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7324,6 +8289,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af0000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7368,6 +8334,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7412,6 +8379,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af0087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7456,6 +8424,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af00af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7502,6 +8471,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af00d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7546,6 +8516,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af00ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7590,6 +8561,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7634,6 +8606,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7678,6 +8651,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7722,6 +8696,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7766,6 +8741,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7810,6 +8786,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af5fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7856,6 +8833,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af8700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7900,6 +8878,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7944,6 +8923,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af8787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -7988,6 +8968,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af87af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8032,6 +9013,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af87d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8076,6 +9058,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#af87ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8120,6 +9103,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afaf00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8164,6 +9148,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afaf5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8210,6 +9195,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afaf87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8254,6 +9240,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afafaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8298,6 +9285,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afafd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8342,6 +9330,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afafff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8386,6 +9375,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8430,6 +9420,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8474,6 +9465,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8518,6 +9510,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8564,6 +9557,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8608,6 +9602,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afd7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8652,6 +9647,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8696,6 +9692,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8740,6 +9737,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8784,6 +9782,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8828,6 +9827,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8872,6 +9872,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#afffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8918,6 +9919,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d70000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -8962,6 +9964,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9006,6 +10009,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d70087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9050,6 +10054,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d700af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9094,6 +10099,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d700d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9138,6 +10144,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d700ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9182,6 +10189,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9226,6 +10234,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9272,6 +10281,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9316,6 +10326,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9360,6 +10371,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9404,6 +10416,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d75fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9448,6 +10461,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d78700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9492,6 +10506,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9536,6 +10551,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d78787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9580,6 +10596,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d787af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9626,6 +10643,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d787d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9670,6 +10688,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d787ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9714,6 +10733,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7af00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9758,6 +10778,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7af5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9802,6 +10823,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7af87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9846,6 +10868,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7afaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9890,6 +10913,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7afd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9934,6 +10958,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7afff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -9980,6 +11005,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10024,6 +11050,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10068,6 +11095,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10112,6 +11140,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10156,6 +11185,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10200,6 +11230,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7d7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10244,6 +11275,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10288,6 +11320,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10334,6 +11367,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10378,6 +11412,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10422,6 +11457,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10466,6 +11502,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d7ffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10510,6 +11547,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff0000",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10554,6 +11592,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff005f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10598,6 +11637,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff0087",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10642,6 +11682,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff00af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10688,6 +11729,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff00d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10732,6 +11774,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff00ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10776,6 +11819,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5f00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10820,6 +11864,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5f5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10864,6 +11909,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5f87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10908,6 +11954,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5faf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10952,6 +11999,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5fd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -10996,6 +12044,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff5fff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11042,6 +12091,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff8700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11086,6 +12136,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff875f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11130,6 +12181,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff8787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11174,6 +12226,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff87af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11218,6 +12271,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff87d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11262,6 +12316,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ff87ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11306,6 +12361,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffaf00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11350,6 +12406,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffaf5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11396,6 +12453,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffaf87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11440,6 +12498,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffafaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11484,6 +12543,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffafd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11528,6 +12588,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffafff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11572,6 +12633,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd700",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11616,6 +12678,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd75f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11660,6 +12723,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd787",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11704,6 +12768,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd7af",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11750,6 +12815,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd7d7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11794,6 +12860,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffd7ff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11838,6 +12905,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffff00",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11882,6 +12950,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffff5f",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11926,6 +12995,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffff87",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -11970,6 +13040,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffffaf",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12014,6 +13085,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffffd7",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12058,6 +13130,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#ffffff",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12104,6 +13177,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#080808",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12148,6 +13222,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#121212",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12192,6 +13267,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#1c1c1c",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12236,6 +13312,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#262626",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12280,6 +13357,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#303030",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12324,6 +13402,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#3a3a3a",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12368,6 +13447,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#444444",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12412,6 +13492,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#4e4e4e",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12458,6 +13539,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#585858",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12502,6 +13584,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#606060",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12546,6 +13629,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#666666",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12590,6 +13674,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#767676",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12634,6 +13719,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#808080",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12678,6 +13764,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#8a8a8a",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12722,6 +13809,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#949494",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12766,6 +13854,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#9e9e9e",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12812,6 +13901,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#a8a8a8",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12856,6 +13946,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#b2b2b2",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12900,6 +13991,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#bcbcbc",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12944,6 +14036,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#c6c6c6",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -12988,6 +14081,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#d0d0d0",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -13032,6 +14126,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#dadada",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -13076,6 +14171,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#e4e4e4",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",
@@ -13120,6 +14216,7 @@ exports[`Storyshots PromptPart xterm 256 colors 1`] = `
             Object {
               "alignItems": "center",
               "backgroundColor": "#eeeeee",
+              "border": "solid 2px",
               "borderRadius": 25,
               "color": "white",
               "display": "inline-flex",

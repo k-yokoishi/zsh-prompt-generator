@@ -7,10 +7,12 @@ interface PromptPart {
   label: string;
   fgColor: Color | number;
   bgColor: Color | number;
+  selected?: boolean;
 }
 
 interface Props {
   promptParts: PromptPart[];
+  bgColor?: Color;
   onDelete?: (event: any) => void;
   onDragEnd?: (event: any) => void;
 }
@@ -55,7 +57,7 @@ class PromptPartView extends React.Component<Props, State> {
   }
 
   render() {
-    const { onDelete } = this.props;
+    const { bgColor = 'black', onDelete } = this.props;
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
         <Droppable direction="horizontal" droppableId="prompt-part-view">
@@ -64,13 +66,15 @@ class PromptPartView extends React.Component<Props, State> {
               ref={provided.innerRef}
               {...provided.droppableProps}
               style={{
-                background: 'lightgray',
+                background: bgColor,
                 overflow: 'auto',
                 display: 'flex',
                 padding: '8px',
+                minHeight: '48px',
+                alignItems: 'center',
               }}
             >
-              {this.state.promptParts.map(({ label, fgColor, bgColor }, i) => (
+              {this.state.promptParts.map(({ label, fgColor, bgColor, selected = false }, i) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {(provided, snapshot) => (
                     <div
@@ -82,6 +86,7 @@ class PromptPartView extends React.Component<Props, State> {
                         label={label}
                         fgColor={fgColor}
                         bgColor={bgColor}
+                        selected={selected}
                         onDelete={onDelete}
                       />
                     </div>
