@@ -6,6 +6,7 @@ import { action } from '@storybook/addon-actions';
 
 import PromptPart from '../components/PromptPart';
 import Prompt from '../components/Prompt';
+import PromptPreview from '../components/PromptPreview';
 
 storiesOf('PromptPart', module)
   .add('basic', () => (
@@ -76,5 +77,31 @@ storiesOf('⚠️Prompt', module)
       ]}
       onDelete={action('onDelete')}
       onDragEnd={action('onDragEnd')}
+    />
+  ));
+
+storiesOf('Prompt Preview', module)
+  .add('PROMPT', () => (
+    <PromptPreview
+      promptParts={[
+        { label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
+        { label: '~/work', fgColor: 'white', bgColor: 'cyan' },
+        { label: 'alice', fgColor: 'white', bgColor: 'blue' },
+        { label: '$', fgColor: 'white', bgColor: 'black' },
+      ]}
+    />
+  ))
+  .add('PROMPT and RPROMPT', () => (
+    <PromptPreview
+      promptParts={[
+        { label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
+        { label: '~/work', fgColor: 'white', bgColor: 'cyan' },
+        { label: 'alice', fgColor: 'white', bgColor: 'blue' },
+        { label: '$', fgColor: 'white', bgColor: 'black' },
+      ]}
+      rpromptParts={[
+        { label: 'master!*', fgColor: 'magenta', bgColor: 'black' },
+        { label: '[12:15]', fgColor: 'white', bgColor: 'black' },
+      ]}
     />
   ));

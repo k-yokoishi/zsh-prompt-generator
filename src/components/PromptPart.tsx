@@ -3,15 +3,10 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import CancelICon from '@material-ui/icons/Cancel';
 import { makeStyles } from '@material-ui/styles';
-
-import { Color } from '../types';
+import { IPromptPart } from '../types';
 import { getColor } from './colors';
 
-export interface Props {
-  label: string;
-  fgColor: Color | number;
-  bgColor: Color | number;
-  selected?: boolean;
+export interface Props extends IPromptPart {
   onDelete?: (event: any) => void;
 }
 

@@ -2,24 +2,17 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
 import PromptPart from './PromptPart';
-import { Color } from '../types';
-
-interface PromptPart {
-  label: string;
-  fgColor: Color | number;
-  bgColor: Color | number;
-  selected?: boolean;
-}
+import { Color, IPromptPart } from '../types';
 
 interface Props {
-  promptParts: PromptPart[];
+  promptParts: IPromptPart[];
   bgColor?: Color;
   onDelete?: (event: any) => void;
   onDragEnd?: (event: any) => void;
 }
 
 interface State {
-  promptParts: PromptPart[];
+  promptParts: IPromptPart[];
 }
 
 function reorder<T>(list: Array<T>, startIndex: number, endIndex: number): Array<T> {
@@ -46,7 +39,7 @@ class PromptPartView extends React.Component<Props, State> {
     // dropped outside of Droppable
     if (!result.destination) return;
 
-    const promptParts = reorder<PromptPart>(
+    const promptParts = reorder<IPromptPart>(
       this.state.promptParts,
       result.source.index,
       result.destination.index
