@@ -7,6 +7,7 @@ import { action } from '@storybook/addon-actions';
 import PromptPart from '../components/PromptPart';
 import Prompt from '../components/Prompt';
 import PromptPreview from '../components/PromptPreview';
+import ZshrcPreview from '../components/ZshrcPreview';
 
 storiesOf('PromptPart', module)
   .add('basic', () => (
@@ -102,6 +103,40 @@ storiesOf('Prompt Preview', module)
       rpromptParts={[
         { label: 'master!*', fgColor: 'magenta', bgColor: 'black' },
         { label: '[12:15]', fgColor: 'white', bgColor: 'black' },
+      ]}
+    />
+  ));
+
+storiesOf('Zshrc Preview', module)
+  .add('initial state', () => <ZshrcPreview promptParts={[]} />)
+  .add('PROMPT', () => (
+    <ZshrcPreview
+      promptParts={[
+        { shRepr: '(mypyenv)', label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
+        { shRepr: '%~', label: '~/work', fgColor: 'white', bgColor: 'cyan' },
+        { shRepr: '%n', label: 'alice', fgColor: 'white', bgColor: 'blue' },
+        { shRepr: '$ ', label: '$ ', fgColor: 'white', bgColor: 'black' },
+      ]}
+    />
+  ))
+  .add('PROMPT and RPROMPT', () => (
+    <ZshrcPreview
+      promptParts={[
+        { shRepr: '(mypyenv)', label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
+        { shRepr: '%~', label: '~/work', fgColor: 'white', bgColor: 'cyan' },
+        { shRepr: '%n', label: 'alice', fgColor: 'white', bgColor: 'blue' },
+        { shRepr: '$ ', label: '$ ', fgColor: 'white', bgColor: 'black' },
+      ]}
+      rpromptParts={[
+        {
+          // eslint-disable-next-line no-template-curly-in-string
+          shRepr: '${vsc_info}',
+          label: 'master!*',
+          fgColor: 'magenta',
+          bgColor: 'black',
+          bold: true,
+        },
+        { shRepr: '$*', label: '[12:15]', fgColor: 'white', bgColor: 'black' },
       ]}
     />
   ));

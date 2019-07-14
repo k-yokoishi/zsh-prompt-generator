@@ -4,5 +4,5 @@ export interface IPromptPart {
   label: string;
   fgColor: Color | number;
   bgColor: Color | number;
-  selected?: boolean;
+  bold?: boolean;
 }

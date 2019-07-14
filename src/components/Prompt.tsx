@@ -4,8 +4,12 @@ import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautif
 import PromptPart from './PromptPart';
 import { Color, IPromptPart } from '../types';
 
+interface SelectablePromptPart extends IPromptPart {
+  selected?: boolean;
+}
+
 interface Props {
-  promptParts: IPromptPart[];
+  promptParts: SelectablePromptPart[];
   bgColor?: Color;
   onDelete?: (event: any) => void;
   onDragEnd?: (event: any) => void;

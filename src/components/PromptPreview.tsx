@@ -5,6 +5,11 @@ import { makeStyles } from '@material-ui/styles';
 import { IPromptPart } from '../types';
 import { getColor } from '../components/colors';
 
+interface Props {
+  promptParts: IPromptPart[];
+  rpromptParts?: IPromptPart[];
+}
+
 const useStyles = makeStyles({
   promptPreview: {
     background: 'black',
@@ -24,11 +29,6 @@ const useStyles = makeStyles({
     padding: '0px 1px',
   },
 });
-
-interface Props {
-  promptParts: IPromptPart[];
-  rpromptParts?: IPromptPart[];
-}
 
 export default function PromptPreview(props: Props) {
   const { promptParts, rpromptParts = [] } = props;
