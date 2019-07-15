@@ -16,7 +16,7 @@ interface Props {
 }
 
 interface State {
-  promptParts: IPromptPart[];
+  promptParts: SelectablePromptPart[];
 }
 
 function reorder<T>(list: Array<T>, startIndex: number, endIndex: number): Array<T> {
@@ -43,7 +43,7 @@ class PromptPartView extends React.Component<Props, State> {
     // dropped outside of Droppable
     if (!result.destination) return;
 
-    const promptParts = reorder<IPromptPart>(
+    const promptParts = reorder<SelectablePromptPart>(
       this.state.promptParts,
       result.source.index,
       result.destination.index

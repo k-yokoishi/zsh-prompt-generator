@@ -7,6 +7,7 @@ import { IPromptPart } from '../types';
 import { getColor } from './colors';
 
 export interface Props extends IPromptPart {
+  selected?: boolean;
   onDelete?: (event: any) => void;
 }
 

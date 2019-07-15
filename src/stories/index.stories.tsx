@@ -8,6 +8,7 @@ import PromptPart from '../components/PromptPart';
 import Prompt from '../components/Prompt';
 import PromptPreview from '../components/PromptPreview';
 import ZshrcPreview from '../components/ZshrcPreview';
+import PromptItemList from '../components/PromptItemList';
 
 storiesOf('PromptPart', module)
   .add('basic', () => (
@@ -140,3 +141,7 @@ storiesOf('Zshrc Preview', module)
       ]}
     />
   ));
+
+storiesOf('Prompt Part List', module).add('initial state', () => (
+  <PromptItemList onItemClick={action('clicked')} />
+));
