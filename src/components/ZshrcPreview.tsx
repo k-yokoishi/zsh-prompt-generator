@@ -1,15 +1,15 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/styles';
-import { IPromptPart } from '../types';
+import { IPromptItem } from '../types';
 
-interface ShPromptPart extends IPromptPart {
+interface ShPromptItem extends IPromptItem {
   shRepr: string;
 }
 
 interface Props {
-  promptParts: ShPromptPart[];
-  rpromptParts?: ShPromptPart[];
+  promptItems: ShPromptItem[];
+  rpromptItems?: ShPromptItem[];
 }
 
 const useStyles = makeStyles({
@@ -23,10 +23,10 @@ const useStyles = makeStyles({
 });
 
 export default function ZshrcPreview(props: Props) {
-  const { promptParts, rpromptParts = [] } = props;
+  const { promptItems, rpromptItems = [] } = props;
   const classes = useStyles();
 
-  const toPreview = (part: ShPromptPart): string => {
+  const toPreview = (part: ShPromptItem): string => {
     let { shRepr, fgColor, bgColor } = part;
 
     if (fgColor) {
@@ -45,9 +45,9 @@ export default function ZshrcPreview(props: Props) {
 
   return (
     <Typography component="div" className={classes.zshrcPreview}>
-      <code>PROMPT="{promptParts.map(p => toPreview(p))}"</code>
+      <code>PROMPT="{promptItems.map(p => toPreview(p))}"</code>
       <br />
-      {rpromptParts.length > 0 && <code>RPROMPT="{rpromptParts.map(p => toPreview(p))}"</code>}
+      {rpromptItems.length > 0 && <code>RPROMPT="{rpromptItems.map(p => toPreview(p))}"</code>}
     </Typography>
   );
 }

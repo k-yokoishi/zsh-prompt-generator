@@ -1,22 +1,22 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
-import PromptPart from './PromptPart';
-import { Color, IPromptPart } from '../types';
+import PromptItem from './PromptItem';
+import { Color, IPromptItem } from '../types';
 
-interface SelectablePromptPart extends IPromptPart {
+interface SelectablePromptItem extends IPromptItem {
   selected?: boolean;
 }
 
 interface Props {
-  promptParts: SelectablePromptPart[];
+  promptItems: SelectablePromptItem[];
   bgColor?: Color;
   onDelete?: (event: any) => void;
   onDragEnd?: (event: any) => void;
 }
 
 interface State {
-  promptParts: SelectablePromptPart[];
+  promptItems: SelectablePromptItem[];
 }
 
 function reorder<T>(list: Array<T>, startIndex: number, endIndex: number): Array<T> {
@@ -26,11 +26,11 @@ function reorder<T>(list: Array<T>, startIndex: number, endIndex: number): Array
   return result;
 }
 
-class PromptPartView extends React.Component<Props, State> {
+class PromptItemView extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      promptParts: props.promptParts,
+      promptItems: props.promptItems,
     };
     this.onDragEnd = this.onDragEnd.bind(this);
   }
@@ -43,14 +43,14 @@ class PromptPartView extends React.Component<Props, State> {
     // dropped outside of Droppable
     if (!result.destination) return;
 
-    const promptParts = reorder<SelectablePromptPart>(
-      this.state.promptParts,
+    const promptItems = reorder<SelectablePromptItem>(
+      this.state.promptItems,
       result.source.index,
       result.destination.index
     );
 
     this.setState({
-      promptParts,
+      promptItems,
     });
   }
 
@@ -73,7 +73,7 @@ class PromptPartView extends React.Component<Props, State> {
                 alignItems: 'center',
               }}
             >
-              {this.state.promptParts.map(({ label, fgColor, bgColor, selected = false }, i) => (
+              {this.state.promptItems.map(({ label, fgColor, bgColor, selected = false }, i) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {(provided, snapshot) => (
                     <Typography
@@ -82,7 +82,7 @@ class PromptPartView extends React.Component<Props, State> {
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
                     >
-                      <PromptPart
+                      <PromptItem
                         label={label}
                         fgColor={fgColor}
                         bgColor={bgColor}
@@ -102,4 +102,4 @@ class PromptPartView extends React.Component<Props, State> {
   }
 }
 
-export default PromptPartView;
+export default PromptItemView;

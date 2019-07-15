@@ -3,16 +3,16 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import CancelICon from '@material-ui/icons/Cancel';
 import { makeStyles } from '@material-ui/styles';
-import { IPromptPart } from '../types';
+import { IPromptItem } from '../types';
 import { getColor } from './colors';
 
-export interface Props extends IPromptPart {
+export interface Props extends IPromptItem {
   selected?: boolean;
   onDelete?: (event: any) => void;
 }
 
 const useStyles = makeStyles({
-  promptPart: {
+  promptItem: {
     height: '32px',
     minWidth: '44px',
     margin: '2px',
@@ -21,17 +21,17 @@ const useStyles = makeStyles({
     display: 'inline-flex',
     alignItems: 'center',
   },
-  promptPartFont: {
+  promptItemFont: {
     fontSize: '13px',
     padding: '1px 12px 0px',
   },
-  promptPartIcon: {
+  promptItemIcon: {
     margin: '0px 5px 0px -8px',
     cursor: 'pointer',
   },
 });
 
-export default function PromptPart(props: Props) {
+export default function PromptItem(props: Props) {
   const { label, fgColor, bgColor, selected = false, onDelete } = props;
 
   const classes = useStyles();
@@ -39,16 +39,16 @@ export default function PromptPart(props: Props) {
   return (
     <Typography
       component="div"
-      className={classes.promptPart}
+      className={classes.promptItem}
       style={{
         color: getColor(fgColor),
         backgroundColor: getColor(bgColor),
         ...(selected ? { border: 'solid 4px cyan' } : {}),
       }}
     >
-      <Box className={classes.promptPartFont}>{label}</Box>
+      <Box className={classes.promptItemFont}>{label}</Box>
       <CancelICon
-        className={classes.promptPartIcon}
+        className={classes.promptItemIcon}
         fontStyle={getColor(fgColor)}
         onClick={onDelete}
       />

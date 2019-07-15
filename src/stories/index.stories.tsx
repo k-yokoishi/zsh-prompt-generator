@@ -4,18 +4,18 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 // import { linkTo } from '@storybook/addon-links';
 
-import PromptPart from '../components/PromptPart';
+import PromptItem from '../components/PromptItem';
 import Prompt from '../components/Prompt';
 import PromptPreview from '../components/PromptPreview';
 import ZshrcPreview from '../components/ZshrcPreview';
 import PromptItemList from '../components/PromptItemList';
 
-storiesOf('PromptPart', module)
+storiesOf('PromptItem', module)
   .add('basic', () => (
-    <PromptPart label="white" fgColor="magenta" bgColor="black" onDelete={action('deleted')} />
+    <PromptItem label="white" fgColor="magenta" bgColor="black" onDelete={action('deleted')} />
   ))
   .add('selected', () => (
-    <PromptPart
+    <PromptItem
       label="white"
       fgColor="magenta"
       bgColor="black"
@@ -25,14 +25,14 @@ storiesOf('PromptPart', module)
   ))
   .add('basic 8 colors', () => (
     <div>
-      <PromptPart label="black" fgColor="white" bgColor="black" onDelete={action('deleted')} />
-      <PromptPart label="red" fgColor="white" bgColor="red" onDelete={action('deleted')} />
-      <PromptPart label="green" fgColor="white" bgColor="green" onDelete={action('deleted')} />
-      <PromptPart label="yellow" fgColor="white" bgColor="yellow" onDelete={action('deleted')} />
-      <PromptPart label="blue" fgColor="white" bgColor="blue" onDelete={action('deleted')} />
-      <PromptPart label="magenta" fgColor="white" bgColor="red" onDelete={action('deleted')} />
-      <PromptPart label="cyan" fgColor="white" bgColor="cyan" onDelete={action('deleted')} />
-      <PromptPart label="white" fgColor="black" bgColor="white" onDelete={action('deleted')} />
+      <PromptItem label="black" fgColor="white" bgColor="black" onDelete={action('deleted')} />
+      <PromptItem label="red" fgColor="white" bgColor="red" onDelete={action('deleted')} />
+      <PromptItem label="green" fgColor="white" bgColor="green" onDelete={action('deleted')} />
+      <PromptItem label="yellow" fgColor="white" bgColor="yellow" onDelete={action('deleted')} />
+      <PromptItem label="blue" fgColor="white" bgColor="blue" onDelete={action('deleted')} />
+      <PromptItem label="magenta" fgColor="white" bgColor="red" onDelete={action('deleted')} />
+      <PromptItem label="cyan" fgColor="white" bgColor="cyan" onDelete={action('deleted')} />
+      <PromptItem label="white" fgColor="black" bgColor="white" onDelete={action('deleted')} />
     </div>
   ))
   .add('xterm 256 colors', () => (
@@ -40,7 +40,7 @@ storiesOf('PromptPart', module)
       {[...new Array(32)].map((_, i) => (
         <div key={i.toString()}>
           {[...new Array(8)].map((_, j) => (
-            <PromptPart
+            <PromptItem
               label={(i * 8 + j).toString().padStart(3, '0')}
               fgColor="white"
               bgColor={i * 8 + j}
@@ -57,7 +57,7 @@ storiesOf('PromptPart', module)
 storiesOf('⚠️Prompt', module)
   .add('basic 8 fgcolors', () => (
     <Prompt
-      promptParts={[
+      promptItems={[
         { label: 'black', fgColor: 'white', bgColor: 'black' },
         { label: 'red', fgColor: 'white', bgColor: 'red' },
         { label: 'green', fgColor: 'white', bgColor: 'green' },
@@ -70,7 +70,7 @@ storiesOf('⚠️Prompt', module)
   ))
   .add('basic 8 bgcolors', () => (
     <Prompt
-      promptParts={[
+      promptItems={[
         { label: 'black', fgColor: 'black', bgColor: 'white' },
         { label: 'red', fgColor: 'red', bgColor: 'white' },
         { label: 'green', fgColor: 'green', bgColor: 'white' },
@@ -85,7 +85,7 @@ storiesOf('⚠️Prompt', module)
 storiesOf('Prompt Preview', module)
   .add('PROMPT', () => (
     <PromptPreview
-      promptParts={[
+      promptItems={[
         { label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
         { label: '~/work', fgColor: 'white', bgColor: 'cyan' },
         { label: 'alice', fgColor: 'white', bgColor: 'blue' },
@@ -95,13 +95,13 @@ storiesOf('Prompt Preview', module)
   ))
   .add('PROMPT and RPROMPT', () => (
     <PromptPreview
-      promptParts={[
+      promptItems={[
         { label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
         { label: '~/work', fgColor: 'white', bgColor: 'cyan' },
         { label: 'alice', fgColor: 'white', bgColor: 'blue' },
         { label: '$', fgColor: 'white', bgColor: 'black' },
       ]}
-      rpromptParts={[
+      rpromptItems={[
         { label: 'master!*', fgColor: 'magenta', bgColor: 'black' },
         { label: '[12:15]', fgColor: 'white', bgColor: 'black' },
       ]}
@@ -109,10 +109,10 @@ storiesOf('Prompt Preview', module)
   ));
 
 storiesOf('Zshrc Preview', module)
-  .add('initial state', () => <ZshrcPreview promptParts={[]} />)
+  .add('initial state', () => <ZshrcPreview promptItems={[]} />)
   .add('PROMPT', () => (
     <ZshrcPreview
-      promptParts={[
+      promptItems={[
         { shRepr: '(mypyenv)', label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
         { shRepr: '%~', label: '~/work', fgColor: 'white', bgColor: 'cyan' },
         { shRepr: '%n', label: 'alice', fgColor: 'white', bgColor: 'blue' },
@@ -122,13 +122,13 @@ storiesOf('Zshrc Preview', module)
   ))
   .add('PROMPT and RPROMPT', () => (
     <ZshrcPreview
-      promptParts={[
+      promptItems={[
         { shRepr: '(mypyenv)', label: '(mypyenv)', fgColor: 'white', bgColor: 'black' },
         { shRepr: '%~', label: '~/work', fgColor: 'white', bgColor: 'cyan' },
         { shRepr: '%n', label: 'alice', fgColor: 'white', bgColor: 'blue' },
         { shRepr: '$ ', label: '$ ', fgColor: 'white', bgColor: 'black' },
       ]}
-      rpromptParts={[
+      rpromptItems={[
         {
           // eslint-disable-next-line no-template-curly-in-string
           shRepr: '${vsc_info}',
@@ -142,6 +142,6 @@ storiesOf('Zshrc Preview', module)
     />
   ));
 
-storiesOf('Prompt Part List', module).add('initial state', () => (
+storiesOf('Prompt Item List', module).add('initial state', () => (
   <PromptItemList onItemClick={action('clicked')} />
 ));

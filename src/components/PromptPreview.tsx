@@ -2,12 +2,12 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { makeStyles } from '@material-ui/styles';
-import { IPromptPart } from '../types';
+import { IPromptItem } from '../types';
 import { getColor } from '../components/colors';
 
 interface Props {
-  promptParts: IPromptPart[];
-  rpromptParts?: IPromptPart[];
+  promptItems: IPromptItem[];
+  rpromptItems?: IPromptItem[];
 }
 
 const useStyles = makeStyles({
@@ -31,13 +31,13 @@ const useStyles = makeStyles({
 });
 
 export default function PromptPreview(props: Props) {
-  const { promptParts, rpromptParts = [] } = props;
+  const { promptItems, rpromptItems = [] } = props;
   const classes = useStyles();
 
   return (
     <Typography component="div" className={classes.promptPreview}>
       <Typography component="div" className={classes.innerPromptPreview}>
-        {promptParts.map((p, i) => (
+        {promptItems.map((p, i) => (
           <Box
             className={classes.promptPreviewFont}
             style={{ color: getColor(p.fgColor), backgroundColor: getColor(p.bgColor) }}
@@ -48,8 +48,8 @@ export default function PromptPreview(props: Props) {
         ))}
       </Typography>
       <Typography component="div" className={classes.innerPromptPreview}>
-        {rpromptParts.length > 0 &&
-          rpromptParts.map((p, i) => (
+        {rpromptItems.length > 0 &&
+          rpromptItems.map((p, i) => (
             <Box
               className={classes.promptPreviewFont}
               style={{ color: getColor(p.fgColor), backgroundColor: getColor(p.bgColor) }}
