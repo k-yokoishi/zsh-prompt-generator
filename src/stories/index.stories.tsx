@@ -9,6 +9,8 @@ import Prompt from '../components/Prompt';
 import PromptPreview from '../components/PromptPreview';
 import ZshrcPreview from '../components/ZshrcPreview';
 import PromptItemList from '../components/PromptItemList';
+import PromptItemEdition from '../components/PromptItemEdition';
+import ColorPicker from '../components/ColorPicker';
 
 storiesOf('PromptItem', module)
   .add('basic', () => (
@@ -82,7 +84,7 @@ storiesOf('⚠️Prompt', module)
     />
   ));
 
-storiesOf('Prompt Preview', module)
+storiesOf('PromptPreview', module)
   .add('PROMPT', () => (
     <PromptPreview
       promptItems={[
@@ -108,7 +110,7 @@ storiesOf('Prompt Preview', module)
     />
   ));
 
-storiesOf('Zshrc Preview', module)
+storiesOf('ZshrcPreview', module)
   .add('initial state', () => <ZshrcPreview promptItems={[]} />)
   .add('PROMPT', () => (
     <ZshrcPreview
@@ -142,6 +144,32 @@ storiesOf('Zshrc Preview', module)
     />
   ));
 
-storiesOf('Prompt Item List', module).add('initial state', () => (
+storiesOf('PromptItemList', module).add('initial state', () => (
   <PromptItemList onItemClick={action('clicked')} />
 ));
+
+storiesOf('ColorPicker', module)
+  .add('Red', () => <ColorPicker value="red" onChange={action('pick')} />)
+  .add('220', () => <ColorPicker value={220} onChange={action('pick')} />);
+
+storiesOf('PromptItemEdition', module)
+  .add('bg:black, fg:magenta', () => (
+    <PromptItemEdition
+      bold={false}
+      fgColor="magenta"
+      bgColor="black"
+      onBoldChange={action('check bold')}
+      onFgColorChange={action('change fgcolor')}
+      onBgColorChange={action('change bgcolor')}
+    />
+  ))
+  .add('bg:80, fg:230, bold', () => (
+    <PromptItemEdition
+      bold
+      fgColor={230}
+      bgColor={80}
+      onBoldChange={action('check bold')}
+      onFgColorChange={action('change fgcolor')}
+      onBgColorChange={action('change bgcolor')}
+    />
+  ));
