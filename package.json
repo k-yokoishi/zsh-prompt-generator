@@ -1,7 +1,7 @@
 {
   "name": "zsh-prompt-generator",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-info": "^5.1.9",
@@ -12,6 +12,7 @@
     "@types/storybook__addon-storyshots": "^4.0.1",
     "@types/storybook__react": "^4.0.2",
     "babel-plugin-require-context-hook": "^1.0.0",
+    "gh-pages": "2.0.1",
     "husky": "^2.4.1",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
@@ -44,7 +45,8 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy": "craco build && gh-pages -d build"
   },
   "husky": {
     "hooks": {
