@@ -11,6 +11,9 @@ import ZshrcPreview from '../components/ZshrcPreview';
 import PromptItemList from '../components/PromptItemList';
 import PromptItemEdition from '../components/PromptItemEdition';
 import ColorPicker from '../components/ColorPicker';
+import Header from '../components/Header';
+
+storiesOf('Header', module).add('header', () => <Header />);
 
 storiesOf('PromptItem', module)
   .add('basic', () => (
