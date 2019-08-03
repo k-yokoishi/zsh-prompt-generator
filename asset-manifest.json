@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zsh-prompt-generator/static/css/main.b2a0857a.chunk.css",
-    "main.js": "/zsh-prompt-generator/static/js/main.a35633a2.chunk.js",
-    "main.js.map": "/zsh-prompt-generator/static/js/main.a35633a2.chunk.js.map",
-    "runtime~main.js": "/zsh-prompt-generator/static/js/runtime~main.82adc179.js",
-    "runtime~main.js.map": "/zsh-prompt-generator/static/js/runtime~main.82adc179.js.map",
-    "static/css/2.0d5f2bad.chunk.css": "/zsh-prompt-generator/static/css/2.0d5f2bad.chunk.css",
-    "static/js/2.89ce541c.chunk.js": "/zsh-prompt-generator/static/js/2.89ce541c.chunk.js",
-    "static/js/2.89ce541c.chunk.js.map": "/zsh-prompt-generator/static/js/2.89ce541c.chunk.js.map",
-    "index.html": "/zsh-prompt-generator/index.html",
-    "precache-manifest.5900b476b11f1060450794c40e65099b.js": "/zsh-prompt-generator/precache-manifest.5900b476b11f1060450794c40e65099b.js",
-    "service-worker.js": "/zsh-prompt-generator/service-worker.js",
-    "static/css/2.0d5f2bad.chunk.css.map": "/zsh-prompt-generator/static/css/2.0d5f2bad.chunk.css.map",
-    "static/css/main.b2a0857a.chunk.css.map": "/zsh-prompt-generator/static/css/main.b2a0857a.chunk.css.map",
-    "static/media/logo.svg": "/zsh-prompt-generator/static/media/logo.5d5d9eef.svg",
-    "static/media/index.css": "/zsh-prompt-generator/static/media/roboto-latin-900italic.bc833e72.woff"
+    "main.css": "/static/css/main.b2a0857a.chunk.css",
+    "main.js": "/static/js/main.b59e4a68.chunk.js",
+    "main.js.map": "/static/js/main.b59e4a68.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.94155858.chunk.css": "/static/css/2.94155858.chunk.css",
+    "static/js/2.89ce541c.chunk.js": "/static/js/2.89ce541c.chunk.js",
+    "static/js/2.89ce541c.chunk.js.map": "/static/js/2.89ce541c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.727db151ad4cf26b9514821f3c464aab.js": "/precache-manifest.727db151ad4cf26b9514821f3c464aab.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.94155858.chunk.css.map": "/static/css/2.94155858.chunk.css.map",
+    "static/css/main.b2a0857a.chunk.css.map": "/static/css/main.b2a0857a.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/index.css": "/static/media/roboto-latin-900italic.bc833e72.woff"
   }
 }
