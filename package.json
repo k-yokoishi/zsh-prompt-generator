@@ -2,6 +2,7 @@
   "name": "zsh-prompt-generator",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://k-yokoishi.github.io/zsh-prompt-generator",
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-info": "^5.1.9",

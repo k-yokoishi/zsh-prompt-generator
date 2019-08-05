@@ -31,7 +31,7 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: yarn deploy -u "$GIT_USERNAME <$GIT_EMAIL>"
+      - run: yarn deploy
 
 workflows:
   version: 2
