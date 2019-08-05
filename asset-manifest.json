@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a365ad36.chunk.css",
-    "main.js": "/static/js/main.f986f172.chunk.js",
-    "main.js.map": "/static/js/main.f986f172.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.94155858.chunk.css": "/static/css/2.94155858.chunk.css",
-    "static/js/2.a4b3e639.chunk.js": "/static/js/2.a4b3e639.chunk.js",
-    "static/js/2.a4b3e639.chunk.js.map": "/static/js/2.a4b3e639.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.de6c75d6864c6050c906dad52aa07d51.js": "/precache-manifest.de6c75d6864c6050c906dad52aa07d51.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.94155858.chunk.css.map": "/static/css/2.94155858.chunk.css.map",
-    "static/css/main.a365ad36.chunk.css.map": "/static/css/main.a365ad36.chunk.css.map",
-    "static/media/index.css": "/static/media/roboto-latin-900italic.bc833e72.woff"
+    "main.css": "/zsh-prompt-generator/static/css/main.a365ad36.chunk.css",
+    "main.js": "/zsh-prompt-generator/static/js/main.afc0e8f9.chunk.js",
+    "main.js.map": "/zsh-prompt-generator/static/js/main.afc0e8f9.chunk.js.map",
+    "runtime~main.js": "/zsh-prompt-generator/static/js/runtime~main.82adc179.js",
+    "runtime~main.js.map": "/zsh-prompt-generator/static/js/runtime~main.82adc179.js.map",
+    "static/css/2.0d5f2bad.chunk.css": "/zsh-prompt-generator/static/css/2.0d5f2bad.chunk.css",
+    "static/js/2.a4b3e639.chunk.js": "/zsh-prompt-generator/static/js/2.a4b3e639.chunk.js",
+    "static/js/2.a4b3e639.chunk.js.map": "/zsh-prompt-generator/static/js/2.a4b3e639.chunk.js.map",
+    "index.html": "/zsh-prompt-generator/index.html",
+    "precache-manifest.2c7a82269fd28816a7a5e000b07b2fa0.js": "/zsh-prompt-generator/precache-manifest.2c7a82269fd28816a7a5e000b07b2fa0.js",
+    "service-worker.js": "/zsh-prompt-generator/service-worker.js",
+    "static/css/2.0d5f2bad.chunk.css.map": "/zsh-prompt-generator/static/css/2.0d5f2bad.chunk.css.map",
+    "static/css/main.a365ad36.chunk.css.map": "/zsh-prompt-generator/static/css/main.a365ad36.chunk.css.map",
+    "static/media/index.css": "/zsh-prompt-generator/static/media/roboto-latin-900italic.bc833e72.woff"
   }
 }
