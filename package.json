@@ -9,8 +9,10 @@
     "@storybook/addon-storyshots": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "@types/react-redux": "^7.1.1",
     "@types/storybook__addon-storyshots": "^4.0.1",
     "@types/storybook__react": "^4.0.2",
+    "@types/uuid": "^3.4.5",
     "babel-plugin-require-context-hook": "^1.0.0",
     "gh-pages": "2.0.1",
     "husky": "^2.4.1",
@@ -35,8 +37,12 @@
     "react": "^16.8.6",
     "react-beautiful-dnd": "^11.0.4",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-starter-kit": "^0.6.3",
     "typeface-roboto": "^0.0.54",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "craco start",

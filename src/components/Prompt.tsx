@@ -4,9 +4,9 @@ import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautif
 import PromptItem from './PromptItem';
 import { Color, IPromptItem } from '../types';
 
-interface SelectablePromptItem extends IPromptItem {
+type SelectablePromptItem = Omit<IPromptItem, 'shRepr'> & {
   selected?: boolean;
-}
+};
 
 interface Props {
   promptItems: SelectablePromptItem[];

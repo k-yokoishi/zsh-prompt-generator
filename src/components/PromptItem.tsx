@@ -6,10 +6,10 @@ import { makeStyles } from '@material-ui/styles';
 import { IPromptItem } from '../types';
 import { getColor } from './colors';
 
-export interface Props extends IPromptItem {
+type Props = Omit<IPromptItem, 'shRepr'> & {
   selected?: boolean;
   onDelete?: (event: any) => void;
-}
+};
 
 const useStyles = makeStyles({
   promptItem: {
@@ -41,15 +41,15 @@ export default function PromptItem(props: Props) {
       component="div"
       className={classes.promptItem}
       style={{
-        color: getColor(fgColor),
-        backgroundColor: getColor(bgColor),
+        color: fgColor === null ? 'white' : getColor(fgColor),
+        backgroundColor: bgColor === null ? 'black' : getColor(bgColor),
         ...(selected ? { border: 'solid 4px cyan' } : {}),
       }}
     >
       <Box className={classes.promptItemFont}>{label}</Box>
       <CancelICon
         className={classes.promptItemIcon}
-        fontStyle={getColor(fgColor)}
+        fontStyle={fgColor === null ? 'white' : getColor(fgColor)}
         onClick={onDelete}
       />
     </Typography>

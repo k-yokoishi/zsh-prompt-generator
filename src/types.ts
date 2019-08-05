@@ -2,7 +2,8 @@ export type Color = 'black' | 'red' | 'green' | 'yellow' | 'blue' | 'magenta' | 
 
 export interface IPromptItem {
   label: string;
-  fgColor: Color | number;
-  bgColor: Color | number;
+  shRepr: string;
+  fgColor: Color | number | null;
+  bgColor: Color | number | null;
   bold?: boolean;
 }

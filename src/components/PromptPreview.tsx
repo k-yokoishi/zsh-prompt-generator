@@ -6,8 +6,8 @@ import { IPromptItem } from '../types';
 import { getColor } from '../components/colors';
 
 interface Props {
-  promptItems: IPromptItem[];
-  rpromptItems?: IPromptItem[];
+  promptItems: Omit<IPromptItem, 'shRepr'>[];
+  rpromptItems?: Omit<IPromptItem, 'shRepr'>[];
 }
 
 const useStyles = makeStyles({
@@ -40,7 +40,10 @@ export default function PromptPreview(props: Props) {
         {promptItems.map((p, i) => (
           <Box
             className={classes.promptPreviewFont}
-            style={{ color: getColor(p.fgColor), backgroundColor: getColor(p.bgColor) }}
+            style={{
+              color: p.fgColor === null ? 'white' : getColor(p.fgColor),
+              backgroundColor: p.bgColor === null ? 'white' : getColor(p.bgColor),
+            }}
             key={i}
           >
             {p.label}
@@ -52,7 +55,10 @@ export default function PromptPreview(props: Props) {
           rpromptItems.map((p, i) => (
             <Box
               className={classes.promptPreviewFont}
-              style={{ color: getColor(p.fgColor), backgroundColor: getColor(p.bgColor) }}
+              style={{
+                color: p.fgColor === null ? 'white' : getColor(p.fgColor),
+                backgroundColor: p.bgColor === null ? 'white' : getColor(p.bgColor),
+              }}
               key={i}
             >
               {p.label}

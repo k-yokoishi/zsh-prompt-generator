@@ -15,6 +15,13 @@ import Header from '../components/Header';
 
 storiesOf('Header', module).add('header', () => <Header />);
 
+const promptItem = {
+  label: 'white',
+  fgColor: 'magenta',
+  bgColor: 'black',
+  onDelete: action('deleted'),
+};
+
 storiesOf('PromptItem', module)
   .add('basic', () => (
     <PromptItem label="white" fgColor="magenta" bgColor="black" onDelete={action('deleted')} />
