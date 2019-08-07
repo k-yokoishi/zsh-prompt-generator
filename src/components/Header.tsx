@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
 export default function Header() {
   const classes = useStyles();
   return (
-    <AppBar>
+    <AppBar position="static">
       <Toolbar className={classes.link}>
         <Grid container direction="row" justify="space-between">
           <Typography variant="h6">Zsh Prompt Generator</Typography>

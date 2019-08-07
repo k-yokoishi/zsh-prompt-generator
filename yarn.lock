@@ -10325,6 +10325,11 @@ raf@3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+rambda@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/rambda/-/rambda-2.14.0.tgz#3a482770d59f2e761bd3eb5ac92c4f5311b83a13"
+  integrity sha512-ebJfg6i+suUcvJwvRLD0MRXOZ0pHXOy/+DvqTXGGGiqHG4m4Rtg55Cwar/jPfDfuFn9SJU3UrTnWI1soBENvOw==
+
 ramda@^0.21.0:
   version "0.21.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz#a001abedb3ff61077d4ff1d577d44de77e8d0a35"

@@ -1,17 +1,22 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
+import { equals } from 'rambda';
 import PromptItem from './PromptItem';
-import { Color, IPromptItem } from '../types';
+import { PromptID, Color, IPromptItem } from '../types';
 
-type SelectablePromptItem = Omit<IPromptItem, 'shRepr'> & {
+type PromptItem = Omit<IPromptItem, 'shRepr'>;
+type SelectablePromptItem = PromptItem & {
   selected?: boolean;
 };
 
 interface Props {
   promptItems: SelectablePromptItem[];
+  selected?: boolean;
   bgColor?: Color;
-  onDelete?: (event: any) => void;
+  onClick?: () => void;
+  onItemClick?: (promptItem: PromptItem) => void;
+  onDelete?: (id: PromptID) => void;
   onDragEnd?: (event: any) => void;
 }
 
@@ -35,6 +40,11 @@ class PromptItemView extends React.Component<Props, State> {
     this.onDragEnd = this.onDragEnd.bind(this);
   }
 
+  componentDidUpdate() {
+    if (!equals(this.state.promptItems, this.props.promptItems)) {
+      this.setState({ promptItems: this.props.promptItems });
+    }
+  }
   onDragEnd(result: DropResult) {
     if (!!this.props.onDragEnd) {
       this.props.onDragEnd(result);
@@ -55,7 +65,7 @@ class PromptItemView extends React.Component<Props, State> {
   }
 
   render() {
-    const { bgColor = 'black', onDelete } = this.props;
+    const { bgColor = '#3E3A39', selected, onClick, onItemClick, onDelete } = this.props;
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
         <Droppable direction="horizontal" droppableId="prompt-part-view">
@@ -71,28 +81,37 @@ class PromptItemView extends React.Component<Props, State> {
                 padding: '8px',
                 minHeight: '48px',
                 alignItems: 'center',
+                borderRadius: '4px',
+                border: 'solid 4px',
+                borderColor: selected ? 'cyan' : bgColor,
+                cursor: 'pointer',
               }}
+              onClick={onClick}
             >
-              {this.state.promptItems.map(({ label, fgColor, bgColor, selected = false }, i) => (
-                <Draggable key={i} draggableId={i.toString()} index={i}>
-                  {(provided, snapshot) => (
-                    <Typography
-                      component="div"
-                      ref={provided.innerRef}
-                      {...provided.draggableProps}
-                      {...provided.dragHandleProps}
-                    >
-                      <PromptItem
-                        label={label}
-                        fgColor={fgColor}
-                        bgColor={bgColor}
-                        selected={selected}
-                        onDelete={onDelete}
-                      />
-                    </Typography>
-                  )}
-                </Draggable>
-              ))}
+              {this.state.promptItems.map(
+                ({ id, label, fgColor, bgColor, selected = false }, i) => (
+                  <Draggable key={i} draggableId={i.toString()} index={i}>
+                    {(provided, snapshot) => (
+                      <Typography
+                        component="div"
+                        ref={provided.innerRef}
+                        {...provided.draggableProps}
+                        {...provided.dragHandleProps}
+                      >
+                        <PromptItem
+                          id={id}
+                          label={label}
+                          fgColor={fgColor}
+                          bgColor={bgColor}
+                          selected={selected}
+                          onClick={onItemClick}
+                          onDelete={onDelete}
+                        />
+                      </Typography>
+                    )}
+                  </Draggable>
+                )
+              )}
               {provided.placeholder}
             </Typography>
           )}

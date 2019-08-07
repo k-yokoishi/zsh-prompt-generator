@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     cursor: 'pointer',
     border: 'solid 1px',
     borderRadius: '4px',
-    borderColor: 'white',
+    borderColor: 'transparent',
   },
   outlined: {
     borderColor: 'lightgray',

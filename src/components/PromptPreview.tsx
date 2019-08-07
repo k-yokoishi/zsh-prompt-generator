@@ -6,18 +6,20 @@ import { IPromptItem } from '../types';
 import { getColor } from '../components/colors';
 
 interface Props {
-  promptItems: Omit<IPromptItem, 'shRepr'>[];
-  rpromptItems?: Omit<IPromptItem, 'shRepr'>[];
+  promptItems: Omit<Omit<IPromptItem, 'shRepr'>, 'id'>[];
+  rpromptItems?: Omit<Omit<IPromptItem, 'shRepr'>, 'id'>[];
 }
 
 const useStyles = makeStyles({
   promptPreview: {
-    background: 'black',
+    background: '#3E3A39',
     display: 'flex',
     justifyContent: 'space-between',
+    padding: '8px',
+    borderRadius: '4px',
   },
   innerPromptPreview: {
-    background: 'black',
+    background: '#3E3A39',
     display: 'flex',
     padding: '0px 4px',
     height: '32px',
@@ -42,7 +44,7 @@ export default function PromptPreview(props: Props) {
             className={classes.promptPreviewFont}
             style={{
               color: p.fgColor === null ? 'white' : getColor(p.fgColor),
-              backgroundColor: p.bgColor === null ? 'white' : getColor(p.bgColor),
+              backgroundColor: p.bgColor === null ? '#3E3A39' : getColor(p.bgColor),
             }}
             key={i}
           >
@@ -57,7 +59,7 @@ export default function PromptPreview(props: Props) {
               className={classes.promptPreviewFont}
               style={{
                 color: p.fgColor === null ? 'white' : getColor(p.fgColor),
-                backgroundColor: p.bgColor === null ? 'white' : getColor(p.bgColor),
+                backgroundColor: p.bgColor === null ? '#3E3A39' : getColor(p.bgColor),
               }}
               key={i}
             >

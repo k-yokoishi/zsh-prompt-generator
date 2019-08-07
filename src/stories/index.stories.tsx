@@ -17,10 +17,17 @@ storiesOf('Header', module).add('header', () => <Header />);
 
 storiesOf('PromptItem', module)
   .add('basic', () => (
-    <PromptItem label="white" fgColor="magenta" bgColor="black" onDelete={action('deleted')} />
+    <PromptItem
+      id="1"
+      label="white"
+      fgColor="magenta"
+      bgColor="black"
+      onDelete={action('deleted')}
+    />
   ))
   .add('selected', () => (
     <PromptItem
+      id="1"
       label="white"
       fgColor="magenta"
       bgColor="black"
@@ -30,14 +37,44 @@ storiesOf('PromptItem', module)
   ))
   .add('basic 8 colors', () => (
     <div>
-      <PromptItem label="black" fgColor="white" bgColor="black" onDelete={action('deleted')} />
-      <PromptItem label="red" fgColor="white" bgColor="red" onDelete={action('deleted')} />
-      <PromptItem label="green" fgColor="white" bgColor="green" onDelete={action('deleted')} />
-      <PromptItem label="yellow" fgColor="white" bgColor="yellow" onDelete={action('deleted')} />
-      <PromptItem label="blue" fgColor="white" bgColor="blue" onDelete={action('deleted')} />
-      <PromptItem label="magenta" fgColor="white" bgColor="red" onDelete={action('deleted')} />
-      <PromptItem label="cyan" fgColor="white" bgColor="cyan" onDelete={action('deleted')} />
-      <PromptItem label="white" fgColor="black" bgColor="white" onDelete={action('deleted')} />
+      <PromptItem
+        id="1"
+        label="black"
+        fgColor="white"
+        bgColor="black"
+        onDelete={action('deleted')}
+      />
+      <PromptItem id="2" label="red" fgColor="white" bgColor="red" onDelete={action('deleted')} />
+      <PromptItem
+        id="3"
+        label="green"
+        fgColor="white"
+        bgColor="green"
+        onDelete={action('deleted')}
+      />
+      <PromptItem
+        id="4"
+        label="yellow"
+        fgColor="white"
+        bgColor="yellow"
+        onDelete={action('deleted')}
+      />
+      <PromptItem id="5" label="blue" fgColor="white" bgColor="blue" onDelete={action('deleted')} />
+      <PromptItem
+        id="6"
+        label="magenta"
+        fgColor="white"
+        bgColor="red"
+        onDelete={action('deleted')}
+      />
+      <PromptItem id="7" label="cyan" fgColor="white" bgColor="cyan" onDelete={action('deleted')} />
+      <PromptItem
+        id="8"
+        label="white"
+        fgColor="black"
+        bgColor="white"
+        onDelete={action('deleted')}
+      />
     </div>
   ))
   .add('xterm 256 colors', () => (
@@ -46,6 +83,7 @@ storiesOf('PromptItem', module)
         <div key={i.toString()}>
           {[...new Array(8)].map((_, j) => (
             <PromptItem
+              id={`${i}-${j}`}
               label={(i * 8 + j).toString().padStart(3, '0')}
               fgColor="white"
               bgColor={i * 8 + j}
@@ -63,12 +101,14 @@ storiesOf('⚠️Prompt', module)
   .add('basic 8 fgcolors', () => (
     <Prompt
       promptItems={[
-        { label: 'black', fgColor: 'white', bgColor: 'black' },
-        { label: 'red', fgColor: 'white', bgColor: 'red' },
-        { label: 'green', fgColor: 'white', bgColor: 'green' },
-        { label: 'yellow', fgColor: 'white', bgColor: 'yellow', selected: true },
-        { label: 'blue', fgColor: 'white', bgColor: 'blue' },
+        { id: '1', label: 'black', fgColor: 'white', bgColor: 'black' },
+        { id: '2', label: 'red', fgColor: 'white', bgColor: 'red' },
+        { id: '3', label: 'green', fgColor: 'white', bgColor: 'green' },
+        { id: '4', label: 'yellow', fgColor: 'white', bgColor: 'yellow', selected: true },
+        { id: '5', label: 'blue', fgColor: 'white', bgColor: 'blue' },
       ]}
+      onClick={action('onClick')}
+      onItemClick={action('onItemClick')}
       onDelete={action('onDelete')}
       onDragEnd={action('onDragEnd')}
     />
@@ -76,12 +116,30 @@ storiesOf('⚠️Prompt', module)
   .add('basic 8 bgcolors', () => (
     <Prompt
       promptItems={[
-        { label: 'black', fgColor: 'black', bgColor: 'white' },
-        { label: 'red', fgColor: 'red', bgColor: 'white' },
-        { label: 'green', fgColor: 'green', bgColor: 'white' },
-        { label: 'yellow', fgColor: 'yellow', bgColor: 'white', selected: true },
-        { label: 'blue', fgColor: 'blue', bgColor: 'white' },
+        { id: '1', label: 'black', fgColor: 'black', bgColor: 'white' },
+        { id: '2', label: 'red', fgColor: 'red', bgColor: 'white' },
+        { id: '3', label: 'green', fgColor: 'green', bgColor: 'white' },
+        { id: '4', label: 'yellow', fgColor: 'yellow', bgColor: 'white', selected: true },
+        { id: '5', label: 'blue', fgColor: 'blue', bgColor: 'white' },
       ]}
+      onClick={action('onClick')}
+      onItemClick={action('onItemClick')}
+      onDelete={action('onDelete')}
+      onDragEnd={action('onDragEnd')}
+    />
+  ))
+  .add('selected', () => (
+    <Prompt
+      promptItems={[
+        { id: '1', label: 'black', fgColor: 'black', bgColor: 'white' },
+        { id: '2', label: 'red', fgColor: 'red', bgColor: 'white' },
+        { id: '3', label: 'green', fgColor: 'green', bgColor: 'white' },
+        { id: '4', label: 'yellow', fgColor: 'yellow', bgColor: 'white', selected: true },
+        { id: '5', label: 'blue', fgColor: 'blue', bgColor: 'white' },
+      ]}
+      selected
+      onClick={action('onClick')}
+      onItemClick={action('onItemClick')}
       onDelete={action('onDelete')}
       onDragEnd={action('onDragEnd')}
     />
