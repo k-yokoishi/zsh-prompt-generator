@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zsh-prompt-generator/precache-manifest.2c7a82269fd28816a7a5e000b07b2fa0.js"
+  "/zsh-prompt-generator/precache-manifest.bd1adc29b7954057cd1576f220131917.js"
 );
 
 self.addEventListener('message', (event) => {
