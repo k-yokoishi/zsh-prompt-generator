@@ -58703,6 +58703,11 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
     <div
       className="MuiFormGroup-root"
     >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        User name
+      </p>
       <label
         className="MuiFormControlLabel-root"
       >
@@ -58711,7 +58716,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1081 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1082 Mui-checked"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1111 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1112 Mui-checked"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -58733,7 +58738,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
               />
               <input
                 checked={true}
-                className="PrivateSwitchBase-input-1084 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1114 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -58964,6 +58969,36 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
                   PromptItemEdition
                 </span>
                 <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      displayStr
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          User name
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
                   <span>
                     <span>
                       <br />
@@ -59206,6 +59241,11 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
     <div
       className="MuiFormGroup-root"
     >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        User name
+      </p>
       <label
         className="MuiFormControlLabel-root"
       >
@@ -59214,7 +59254,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-990 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1020 MuiSwitch-switchBase MuiSwitch-colorPrimary"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -59236,7 +59276,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
               />
               <input
                 checked={false}
-                className="PrivateSwitchBase-input-993 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1023 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -59467,6 +59507,36 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
                   PromptItemEdition
                 </span>
                 <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      displayStr
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          User name
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
                   <span>
                     <span>
                       <br />

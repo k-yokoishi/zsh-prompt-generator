@@ -1,4 +1,4 @@
-import { IPromptItem, PromptID } from './../types';
+import { Color, IPromptItem, PromptID } from '../types';
 import { createSlice, PayloadAction } from 'redux-starter-kit';
 import uuid from 'uuid/v4';
 
@@ -6,14 +6,12 @@ export interface State {
   prompt: Required<IPromptItem>[];
   rprompt: Required<IPromptItem>[];
   selectedPrompt: 'prompt' | 'rprompt';
-  selectedPromptItem: PromptID | null;
 }
 
 const initialState: State = {
   prompt: [],
   rprompt: [],
   selectedPrompt: 'prompt',
-  selectedPromptItem: null,
 };
 
 const promptReducer = createSlice({
@@ -56,6 +54,24 @@ const promptReducer = createSlice({
       Object.assign(state, { prompt: state.prompt.filter(p => p.id !== payload) });
       Object.assign(state, { rprompt: state.rprompt.filter(p => p.id !== payload) });
     },
+    changeFgColor: (state: State, { payload }: PayloadAction<Color | number>) => {
+      const promptItem = [...state.prompt, ...state.rprompt].find(p => p.selected);
+      if (!!promptItem) {
+        Object.assign(promptItem, { fgColor: payload });
+      }
+    },
+    changeBgColor: (state: State, { payload }: PayloadAction<Color | number>) => {
+      const promptItem = [...state.prompt, ...state.rprompt].find(p => p.selected);
+      if (!!promptItem) {
+        Object.assign(promptItem, { bgColor: payload });
+      }
+    },
+    toggleBold: (state: State) => {
+      const promptItem = [...state.prompt, ...state.rprompt].find(p => p.selected);
+      if (!!promptItem) {
+        Object.assign(promptItem, { bold: !promptItem.bold });
+      }
+    },
   },
 });
 
@@ -68,5 +84,8 @@ export const {
     addPromptItem,
     movePromptItem,
     deletePromptItem,
+    changeFgColor,
+    changeBgColor,
+    toggleBold,
   },
 } = promptReducer;

@@ -10,7 +10,7 @@ import { Color } from '../types';
 import { getColor } from './colors';
 
 interface Props {
-  value: Color | number;
+  value: Color | number | null;
   onChange: (color: Color | number) => void;
 }
 
@@ -90,7 +90,7 @@ export default function ColorPicker(props: Props) {
         component="div"
         aria-describedby={id}
         className={classes.previewInner}
-        style={{ backgroundColor: getColor(value) }}
+        style={{ backgroundColor: value === null ? 'transparent' : getColor(value) }}
       />
       <Box className={classes.color}>{value}</Box>
       <Popper id={id} anchorEl={anchorEl} open={Boolean(anchorEl)} placement={'left'}>

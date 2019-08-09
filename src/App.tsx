@@ -9,6 +9,7 @@ import Prompt from './container/Prompt';
 import PromptItemList from './container/PromptItemList';
 import PromptPreview from './container/PromptPreview';
 import ZshPreview from './container/ZshPreview';
+import PromptEdition from './container/PromptItemEdition';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
             <ZshPreview />
           </Grid>
           <Grid item xs={2}>
-            <PromptItemList />
+            <PromptEdition />
           </Grid>
         </Grid>
       </Provider>

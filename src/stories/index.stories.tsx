@@ -234,6 +234,7 @@ storiesOf('ColorPicker', module)
 storiesOf('PromptItemEdition', module)
   .add('bg:black, fg:magenta', () => (
     <PromptItemEdition
+      displayStr={'User name'}
       bold={false}
       fgColor="magenta"
       bgColor="black"
@@ -244,6 +245,7 @@ storiesOf('PromptItemEdition', module)
   ))
   .add('bg:80, fg:230, bold', () => (
     <PromptItemEdition
+      displayStr={'User name'}
       bold
       fgColor={230}
       bgColor={80}
