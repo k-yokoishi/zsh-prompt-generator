@@ -1,6 +1,12 @@
 import * as React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { State, selectPrompt, selectPromptItem, deletePromptItem } from '../redux/reducer';
+import {
+  State,
+  selectPrompt,
+  selectPromptItem,
+  movePromptItem,
+  deletePromptItem,
+} from '../redux/reducer';
 import { PromptID } from '../types';
 
 import Prompt from '../components/Prompt';
@@ -23,6 +29,9 @@ export default function({ type }: Props) {
         dispatch(selectPromptItem(id));
       }}
       onDelete={(...args) => dispatch(deletePromptItem(...args))}
+      onDragEnd={result =>
+        dispatch(movePromptItem({ srcIdx: result.source.index, dstIdx: result.destination!.index }))
+      }
     />
   );
 }

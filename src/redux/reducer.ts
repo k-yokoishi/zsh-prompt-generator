@@ -36,8 +36,7 @@ const promptReducer = createSlice({
       state: State,
       { payload }: PayloadAction<{ displayStr: string; shStr: string; promptStr: string }>
     ) => {
-      const prompt = state.selectedPrompt === 'prompt' ? state.prompt : state.rprompt;
-      prompt.push({
+      state[state.selectedPrompt].push({
         id: uuid(),
         fgColor: null,
         bgColor: null,
@@ -45,6 +44,13 @@ const promptReducer = createSlice({
         selected: false,
         ...payload,
       });
+    },
+    movePromptItem: (
+      state: State,
+      { payload: { srcIdx, dstIdx } }: PayloadAction<{ srcIdx: number; dstIdx: number }>
+    ) => {
+      const moved = state[state.selectedPrompt].splice(srcIdx, 1);
+      state[state.selectedPrompt].splice(dstIdx, 0, ...moved);
     },
     deletePromptItem: (state: State, { payload }: PayloadAction<PromptID>) => {
       Object.assign(state, { prompt: state.prompt.filter(p => p.id !== payload) });
@@ -55,5 +61,12 @@ const promptReducer = createSlice({
 
 export const {
   reducer,
-  actions: { initialize, selectPrompt, selectPromptItem, addPromptItem, deletePromptItem },
+  actions: {
+    initialize,
+    selectPrompt,
+    selectPromptItem,
+    addPromptItem,
+    movePromptItem,
+    deletePromptItem,
+  },
 } = promptReducer;

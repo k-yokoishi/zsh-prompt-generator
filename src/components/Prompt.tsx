@@ -14,7 +14,7 @@ interface Props {
   onClick?: () => void;
   onItemClick?: (id: PromptID) => void;
   onDelete?: (id: PromptID) => void;
-  onDragEnd?: (event: any) => void;
+  onDragEnd?: (result: DropResult) => void;
 }
 
 interface State {
@@ -43,12 +43,12 @@ class PromptItemView extends React.Component<Props, State> {
     }
   }
   onDragEnd(result: DropResult) {
+    // dropped outside of Droppable
+    if (!result.destination) return;
+
     if (!!this.props.onDragEnd) {
       this.props.onDragEnd(result);
     }
-
-    // dropped outside of Droppable
-    if (!result.destination) return;
 
     const promptItems = reorder<PromptItem>(
       this.state.promptItems,
