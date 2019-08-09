@@ -7,7 +7,9 @@ export default function() {
   const dispatch = useDispatch();
   return (
     <PromptItemList
-      onItemClick={({ label, shRepr }) => dispatch(addPromptItem({ label, shRepr }))}
+      onItemClick={({ displayStr, shStr, promptStr }) =>
+        dispatch(addPromptItem({ displayStr, shStr, promptStr }))
+      }
     />
   );
 }

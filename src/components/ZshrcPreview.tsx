@@ -3,9 +3,11 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/styles';
 import { IPromptItem } from '../types';
 
+type PromptItem = Omit<Omit<IPromptItem, 'id'>, 'promptStr'>;
+
 interface Props {
-  promptItems: Omit<IPromptItem, 'id'>[];
-  rpromptItems?: Omit<IPromptItem, 'id'>[];
+  promptItems: PromptItem[];
+  rpromptItems?: PromptItem[];
 }
 
 const useStyles = makeStyles({
@@ -22,21 +24,21 @@ export default function ZshrcPreview(props: Props) {
   const { promptItems, rpromptItems = [] } = props;
   const classes = useStyles();
 
-  const toPreview = (part: Omit<IPromptItem, 'id'>): string => {
-    let { shRepr, fgColor, bgColor } = part;
+  const toPreview = (part: PromptItem): string => {
+    let { shStr, fgColor, bgColor } = part;
 
     if (fgColor) {
-      shRepr = `%F{${fgColor}}${shRepr}%f`;
+      shStr = `%F{${fgColor}}${shStr}%f`;
     }
 
     if (bgColor) {
-      shRepr = `%K{${bgColor}}${shRepr}%k`;
+      shStr = `%K{${bgColor}}${shStr}%k`;
     }
 
     if (part.bold) {
-      shRepr = `%B${shRepr}%b`;
+      shStr = `%B${shStr}%b`;
     }
-    return shRepr;
+    return shStr;
   };
 
   return (

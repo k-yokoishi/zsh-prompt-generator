@@ -4,8 +4,9 @@ export type Color = 'black' | 'red' | 'green' | 'yellow' | 'blue' | 'magenta' | 
 
 export interface IPromptItem {
   id: PromptID;
-  label: string;
-  shRepr: string;
+  displayStr: string;
+  shStr: string;
+  promptStr: string;
   fgColor: Color | number | null;
   bgColor: Color | number | null;
   bold?: boolean;

@@ -1180,7 +1180,7 @@ exports[`Storyshots PromptItem basic 1`] = `
                     <span
                       style={Object {}}
                     >
-                      label
+                      displayStr
                     </span>
                     <span>
                       =
@@ -1832,7 +1832,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2012,7 +2012,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2192,7 +2192,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2372,7 +2372,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2552,7 +2552,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2732,7 +2732,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -2912,7 +2912,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -3092,7 +3092,7 @@ exports[`Storyshots PromptItem basic 8 colors 1`] = `
                       <span
                         style={Object {}}
                       >
-                        label
+                        displayStr
                       </span>
                       <span>
                         =
@@ -3538,7 +3538,7 @@ exports[`Storyshots PromptItem selected 1`] = `
                     <span
                       style={Object {}}
                     >
-                      label
+                      displayStr
                     </span>
                     <span>
                       =
@@ -11239,7 +11239,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -11418,7 +11418,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -11597,7 +11597,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -11776,7 +11776,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -11955,7 +11955,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -12134,7 +12134,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -12313,7 +12313,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -12492,7 +12492,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -12722,7 +12722,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -12901,7 +12901,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13080,7 +13080,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13259,7 +13259,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13438,7 +13438,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13617,7 +13617,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13796,7 +13796,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -13975,7 +13975,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -14205,7 +14205,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -14384,7 +14384,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -14563,7 +14563,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -14742,7 +14742,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -14921,7 +14921,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -15100,7 +15100,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -15279,7 +15279,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -15458,7 +15458,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -15688,7 +15688,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -15867,7 +15867,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16046,7 +16046,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16225,7 +16225,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16404,7 +16404,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16583,7 +16583,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16762,7 +16762,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -16941,7 +16941,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -17171,7 +17171,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -17350,7 +17350,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -17529,7 +17529,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -17708,7 +17708,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -17887,7 +17887,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -18066,7 +18066,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -18245,7 +18245,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -18424,7 +18424,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -18654,7 +18654,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -18833,7 +18833,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19012,7 +19012,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19191,7 +19191,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19370,7 +19370,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19549,7 +19549,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19728,7 +19728,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -19907,7 +19907,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -20137,7 +20137,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -20316,7 +20316,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -20495,7 +20495,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -20674,7 +20674,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -20853,7 +20853,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21032,7 +21032,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21211,7 +21211,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21390,7 +21390,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21620,7 +21620,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21799,7 +21799,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -21978,7 +21978,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -22157,7 +22157,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -22336,7 +22336,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -22515,7 +22515,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -22694,7 +22694,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -22873,7 +22873,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23103,7 +23103,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23282,7 +23282,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23461,7 +23461,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23640,7 +23640,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23819,7 +23819,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -23998,7 +23998,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -24177,7 +24177,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -24356,7 +24356,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -24586,7 +24586,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -24765,7 +24765,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -24944,7 +24944,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -25123,7 +25123,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -25302,7 +25302,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -25481,7 +25481,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -25660,7 +25660,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -25839,7 +25839,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26069,7 +26069,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26248,7 +26248,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26427,7 +26427,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26606,7 +26606,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26785,7 +26785,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -26964,7 +26964,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -27143,7 +27143,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -27322,7 +27322,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -27552,7 +27552,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -27731,7 +27731,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -27910,7 +27910,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -28089,7 +28089,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -28268,7 +28268,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -28447,7 +28447,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -28626,7 +28626,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -28805,7 +28805,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29035,7 +29035,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29214,7 +29214,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29393,7 +29393,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29572,7 +29572,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29751,7 +29751,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -29930,7 +29930,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -30109,7 +30109,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -30288,7 +30288,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -30518,7 +30518,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -30697,7 +30697,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -30876,7 +30876,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -31055,7 +31055,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -31234,7 +31234,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -31413,7 +31413,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -31592,7 +31592,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -31771,7 +31771,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32001,7 +32001,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32180,7 +32180,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32359,7 +32359,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32538,7 +32538,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32717,7 +32717,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -32896,7 +32896,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -33075,7 +33075,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -33254,7 +33254,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -33484,7 +33484,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -33663,7 +33663,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -33842,7 +33842,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34021,7 +34021,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34200,7 +34200,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34379,7 +34379,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34558,7 +34558,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34737,7 +34737,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -34967,7 +34967,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -35146,7 +35146,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -35325,7 +35325,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -35504,7 +35504,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -35683,7 +35683,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -35862,7 +35862,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36041,7 +36041,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36220,7 +36220,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36450,7 +36450,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36629,7 +36629,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36808,7 +36808,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -36987,7 +36987,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -37166,7 +37166,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -37345,7 +37345,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -37524,7 +37524,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -37703,7 +37703,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -37933,7 +37933,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -38112,7 +38112,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -38291,7 +38291,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -38470,7 +38470,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -38649,7 +38649,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -38828,7 +38828,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39007,7 +39007,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39186,7 +39186,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39416,7 +39416,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39595,7 +39595,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39774,7 +39774,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -39953,7 +39953,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -40132,7 +40132,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -40311,7 +40311,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -40490,7 +40490,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -40669,7 +40669,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -40899,7 +40899,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41078,7 +41078,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41257,7 +41257,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41436,7 +41436,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41615,7 +41615,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41794,7 +41794,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -41973,7 +41973,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -42152,7 +42152,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -42382,7 +42382,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -42561,7 +42561,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -42740,7 +42740,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -42919,7 +42919,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -43098,7 +43098,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -43277,7 +43277,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -43456,7 +43456,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -43635,7 +43635,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -43865,7 +43865,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44044,7 +44044,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44223,7 +44223,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44402,7 +44402,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44581,7 +44581,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44760,7 +44760,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -44939,7 +44939,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -45118,7 +45118,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -45348,7 +45348,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -45527,7 +45527,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -45706,7 +45706,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -45885,7 +45885,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -46064,7 +46064,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -46243,7 +46243,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -46422,7 +46422,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -46601,7 +46601,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -46831,7 +46831,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47010,7 +47010,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47189,7 +47189,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47368,7 +47368,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47547,7 +47547,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47726,7 +47726,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -47905,7 +47905,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -48084,7 +48084,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -48314,7 +48314,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -48493,7 +48493,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -48672,7 +48672,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -48851,7 +48851,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49030,7 +49030,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49209,7 +49209,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49388,7 +49388,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49567,7 +49567,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49797,7 +49797,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -49976,7 +49976,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -50155,7 +50155,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -50334,7 +50334,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -50513,7 +50513,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -50692,7 +50692,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -50871,7 +50871,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51050,7 +51050,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51280,7 +51280,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51459,7 +51459,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51638,7 +51638,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51817,7 +51817,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -51996,7 +51996,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -52175,7 +52175,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -52354,7 +52354,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -52533,7 +52533,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -52763,7 +52763,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -52942,7 +52942,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -53121,7 +53121,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -53300,7 +53300,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -53479,7 +53479,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -53658,7 +53658,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -53837,7 +53837,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54016,7 +54016,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54246,7 +54246,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54425,7 +54425,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54604,7 +54604,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54783,7 +54783,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -54962,7 +54962,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -55141,7 +55141,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -55320,7 +55320,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -55499,7 +55499,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -55729,7 +55729,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -55908,7 +55908,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56087,7 +56087,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56266,7 +56266,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56445,7 +56445,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56624,7 +56624,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56803,7 +56803,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -56982,7 +56982,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -57212,7 +57212,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -57391,7 +57391,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -57570,7 +57570,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -57749,7 +57749,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -57928,7 +57928,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -58107,7 +58107,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -58286,7 +58286,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -58465,7 +58465,7 @@ exports[`Storyshots PromptItem xterm 256 colors 1`] = `
                         <span
                           style={Object {}}
                         >
-                          label
+                          displayStr
                         </span>
                         <span>
                           =
@@ -59880,7 +59880,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
             <span
               className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
             >
-              yyyy-mm-dd
+              yy-mm-dd
             </span>
           </div>
         </div>
@@ -59945,70 +59945,6 @@ exports[`Storyshots PromptItemList initial state 1`] = `
               className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
             >
               Current time(12-hour, am/pm)
-            </span>
-          </div>
-        </div>
-      </ul>
-      <ul
-        className="MuiList-root"
-      >
-        <div
-          aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
-          onBlur={[Function]}
-          onClick={[Function]}
-          onDragLeave={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-          <div
-            className="MuiListItemText-root"
-          >
-            <span
-              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
-            >
-              Date(day-dd)
-            </span>
-          </div>
-        </div>
-      </ul>
-      <ul
-        className="MuiList-root"
-      >
-        <div
-          aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
-          onBlur={[Function]}
-          onClick={[Function]}
-          onDragLeave={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-          <div
-            className="MuiListItemText-root"
-          >
-            <span
-              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
-            >
-              Date(mm/dd/yy)
             </span>
           </div>
         </div>
@@ -60549,7 +60485,7 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -60635,7 +60571,7 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -60721,7 +60657,7 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61171,7 +61107,7 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61257,7 +61193,7 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61343,7 +61279,7 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61463,7 +61399,7 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61544,7 +61480,7 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  promptStr
                                 </span>
                               </span>
                               : 
@@ -61921,7 +61857,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -61949,7 +61885,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62035,7 +61971,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62063,7 +61999,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62149,7 +62085,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62177,7 +62113,7 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62568,7 +62504,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62596,7 +62532,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62682,7 +62618,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62710,7 +62646,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62796,7 +62732,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62824,7 +62760,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -62944,7 +62880,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -62972,7 +62908,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 
@@ -63053,7 +62989,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  shRepr
+                                  shStr
                                 </span>
                               </span>
                               : 
@@ -63081,7 +63017,7 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
                                     }
                                   }
                                 >
-                                  label
+                                  displayStr
                                 </span>
                               </span>
                               : 

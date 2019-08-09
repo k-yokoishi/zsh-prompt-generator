@@ -5,9 +5,11 @@ import { makeStyles } from '@material-ui/styles';
 import { IPromptItem } from '../types';
 import { getColor } from '../components/colors';
 
+type PromptItem = Omit<Omit<Omit<IPromptItem, 'shStr'>, 'id'>, 'displayStr'>;
+
 interface Props {
-  promptItems: Omit<Omit<IPromptItem, 'shRepr'>, 'id'>[];
-  rpromptItems?: Omit<Omit<IPromptItem, 'shRepr'>, 'id'>[];
+  promptItems: PromptItem[];
+  rpromptItems?: PromptItem[];
 }
 
 const useStyles = makeStyles({
@@ -36,10 +38,10 @@ export default function PromptPreview(props: Props) {
   const { promptItems, rpromptItems = [] } = props;
   const classes = useStyles();
 
-  return (
-    <Typography component="div" className={classes.promptPreview}>
-      <Typography component="div" className={classes.innerPromptPreview}>
-        {promptItems.map((p, i) => (
+  const renderPromptItem = (promptItems: PromptItem[]) => (
+    <Typography component="div" className={classes.innerPromptPreview}>
+      {promptItems.length > 0 &&
+        promptItems.map((p, i) => (
           <Box
             className={classes.promptPreviewFont}
             style={{
@@ -48,25 +50,16 @@ export default function PromptPreview(props: Props) {
             }}
             key={i}
           >
-            {p.label}
+            {p.promptStr}
           </Box>
         ))}
-      </Typography>
-      <Typography component="div" className={classes.innerPromptPreview}>
-        {rpromptItems.length > 0 &&
-          rpromptItems.map((p, i) => (
-            <Box
-              className={classes.promptPreviewFont}
-              style={{
-                color: p.fgColor === null ? 'white' : getColor(p.fgColor),
-                backgroundColor: p.bgColor === null ? '#3E3A39' : getColor(p.bgColor),
-              }}
-              key={i}
-            >
-              {p.label}
-            </Box>
-          ))}
-      </Typography>
+    </Typography>
+  );
+
+  return (
+    <Typography component="div" className={classes.promptPreview}>
+      {renderPromptItem(promptItems)}
+      {renderPromptItem(rpromptItems)}
     </Typography>
   );
 }

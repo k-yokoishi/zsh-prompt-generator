@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { State, selectPrompt, selectPromptItem, deletePromptItem } from '../redux/reducer';
-import { IPromptItem } from '../types';
+import { PromptID } from '../types';
 
 import Prompt from '../components/Prompt';
 
@@ -19,8 +19,8 @@ export default function({ type }: Props) {
       promptItems={prompt}
       selected={type === selectedPrompt}
       onClick={() => dispatch(selectPrompt(type))}
-      onItemClick={(promptItem: Omit<IPromptItem, 'shRepr'>) => {
-        dispatch(selectPromptItem(promptItem));
+      onItemClick={(id: PromptID) => {
+        dispatch(selectPromptItem(id));
       }}
       onDelete={(...args) => dispatch(deletePromptItem(...args))}
     />

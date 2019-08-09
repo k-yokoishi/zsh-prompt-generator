@@ -6,10 +6,10 @@ import { makeStyles } from '@material-ui/styles';
 import { PromptID, IPromptItem } from '../types';
 import { getColor } from './colors';
 
-type PromptItem = Omit<IPromptItem, 'shRepr'>;
+type PromptItem = Omit<Omit<IPromptItem, 'shStr'>, 'promptStr'>;
 
 type Props = PromptItem & {
-  onClick?: (promptItem: PromptItem) => void;
+  onClick?: (id: PromptID) => void;
   onDelete?: (id: PromptID) => void;
 };
 
@@ -34,7 +34,7 @@ const useStyles = makeStyles({
 });
 
 export default function PromptItem(props: Props) {
-  const { id, label, fgColor, bgColor, selected = false, onClick, onDelete } = props;
+  const { id, displayStr, fgColor, bgColor, selected = false, onClick, onDelete } = props;
 
   const classes = useStyles();
 
@@ -51,12 +51,12 @@ export default function PromptItem(props: Props) {
         onClick
           ? event => {
               event.stopPropagation();
-              onClick({ id, label, fgColor, bgColor });
+              onClick(id);
             }
           : undefined
       }
     >
-      <Box className={classes.promptItemFont}>{label}</Box>
+      <Box className={classes.promptItemFont}>{displayStr}</Box>
       <CancelICon
         className={classes.promptItemIcon}
         fontStyle={fgColor === null ? 'white' : getColor(fgColor)}

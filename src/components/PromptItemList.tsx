@@ -5,14 +5,15 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { makeStyles } from '@material-ui/styles';
 
 interface Props {
-  onItemClick: (item: { label: string; shRepr: string }) => void;
+  onItemClick: (item: { displayStr: string; shStr: string; promptStr: string }) => void;
 }
 
 interface PromptItem {
   type: string;
   items: Array<{
-    label: string;
-    shRepr: string;
+    displayStr: string;
+    shStr: string;
+    promptStr: string;
   }>;
 }
 
@@ -30,19 +31,17 @@ export default function PromptItemList(props: Props) {
     {
       type: 'Login information',
       items: [
-        { label: 'User name', shRepr: '%n' },
-        { label: 'Hostname', shRepr: '%m' },
-        { label: 'Full hostname', shRepr: '%M' },
+        { displayStr: 'User name', promptStr: 'user', shStr: '%n' },
+        { displayStr: 'Hostname', promptStr: 'host', shStr: '%m' },
+        { displayStr: 'Full hostname', promptStr: 'host.local', shStr: '%M' },
       ],
     },
     {
       type: 'Date and time',
       items: [
-        { label: 'yyyy-mm-dd', shRepr: '%D' },
-        { label: 'Current time(24-hour)', shRepr: '%T' },
-        { label: 'Current time(12-hour, am/pm)', shRepr: '%@' },
-        { label: 'Date(day-dd)', shRepr: '%w' },
-        { label: 'Date(mm/dd/yy)', shRepr: '%w' },
+        { displayStr: 'yy-mm-dd', promptStr: '19-08-09', shStr: '%D' },
+        { displayStr: 'Current time(24-hour)', promptStr: '12:28', shStr: '%T' },
+        { displayStr: 'Current time(12-hour, am/pm)', promptStr: '12:28PM', shStr: '%@' },
       ],
     },
   ];
@@ -53,14 +52,14 @@ export default function PromptItemList(props: Props) {
           <ListItem>
             <ListItemText primary={item.type} />
           </ListItem>
-          {item.items.map(({ label, shRepr }) => (
-            <List disablePadding key={label}>
+          {item.items.map(({ displayStr, shStr, promptStr }) => (
+            <List disablePadding key={displayStr}>
               <ListItem
                 button
                 className={classes.nested}
-                onClick={() => onItemClick({ label, shRepr })}
+                onClick={() => onItemClick({ displayStr, shStr, promptStr })}
               >
-                <ListItemText primary={label} />
+                <ListItemText primary={displayStr} />
               </ListItem>
             </List>
           ))}

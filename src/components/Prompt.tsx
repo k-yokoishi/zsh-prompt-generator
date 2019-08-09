@@ -5,23 +5,20 @@ import { equals } from 'rambda';
 import PromptItem from './PromptItem';
 import { PromptID, Color, IPromptItem } from '../types';
 
-type PromptItem = Omit<IPromptItem, 'shRepr'>;
-type SelectablePromptItem = PromptItem & {
-  selected?: boolean;
-};
+type PromptItem = Omit<Omit<IPromptItem, 'shStr'>, 'promptStr'>;
 
 interface Props {
-  promptItems: SelectablePromptItem[];
+  promptItems: PromptItem[];
   selected?: boolean;
   bgColor?: Color;
   onClick?: () => void;
-  onItemClick?: (promptItem: PromptItem) => void;
+  onItemClick?: (id: PromptID) => void;
   onDelete?: (id: PromptID) => void;
   onDragEnd?: (event: any) => void;
 }
 
 interface State {
-  promptItems: SelectablePromptItem[];
+  promptItems: PromptItem[];
 }
 
 function reorder<T>(list: Array<T>, startIndex: number, endIndex: number): Array<T> {
@@ -53,7 +50,7 @@ class PromptItemView extends React.Component<Props, State> {
     // dropped outside of Droppable
     if (!result.destination) return;
 
-    const promptItems = reorder<SelectablePromptItem>(
+    const promptItems = reorder<PromptItem>(
       this.state.promptItems,
       result.source.index,
       result.destination.index
@@ -89,7 +86,7 @@ class PromptItemView extends React.Component<Props, State> {
               onClick={onClick}
             >
               {this.state.promptItems.map(
-                ({ id, label, fgColor, bgColor, selected = false }, i) => (
+                ({ id, displayStr, fgColor, bgColor, selected = false }, i) => (
                   <Draggable key={i} draggableId={i.toString()} index={i}>
                     {(provided, snapshot) => (
                       <Typography
@@ -100,7 +97,7 @@ class PromptItemView extends React.Component<Props, State> {
                       >
                         <PromptItem
                           id={id}
-                          label={label}
+                          displayStr={displayStr}
                           fgColor={fgColor}
                           bgColor={bgColor}
                           selected={selected}

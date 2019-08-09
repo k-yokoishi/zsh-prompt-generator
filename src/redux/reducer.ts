@@ -23,8 +23,8 @@ const promptReducer = createSlice({
     selectPrompt: (state: State, { payload }: PayloadAction<'prompt' | 'rprompt'>) => {
       Object.assign(state, { selectedPrompt: payload });
     },
-    selectPromptItem: (state: State, { payload }: PayloadAction<Omit<IPromptItem, 'shRepr'>>) => {
-      const { id } = payload;
+    selectPromptItem: (state: State, { payload }: PayloadAction<PromptID>) => {
+      const id = payload;
       Object.assign(state, {
         prompt: state.prompt.map(p => Object.assign(p, { selected: p.id === id })),
       });
@@ -34,7 +34,7 @@ const promptReducer = createSlice({
     },
     addPromptItem: (
       state: State,
-      { payload }: PayloadAction<{ label: string; shRepr: string }>
+      { payload }: PayloadAction<{ displayStr: string; shStr: string; promptStr: string }>
     ) => {
       const prompt = state.selectedPrompt === 'prompt' ? state.prompt : state.rprompt;
       prompt.push({
