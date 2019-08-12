@@ -11,6 +11,7 @@ import { getColor } from './colors';
 
 interface Props {
   value: Color | number | null;
+  defaultColor: string;
   onChange: (color: Color | number) => void;
 }
 
@@ -56,7 +57,7 @@ const useStyles = makeStyles({
 });
 
 export default function ColorPicker(props: Props) {
-  const { value, onChange } = props;
+  const { value, defaultColor, onChange } = props;
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
   const [hover, setHover] = React.useState<boolean>(false);
   const classes = useStyles();
@@ -90,9 +91,9 @@ export default function ColorPicker(props: Props) {
         component="div"
         aria-describedby={id}
         className={classes.previewInner}
-        style={{ backgroundColor: value === null ? 'transparent' : getColor(value) }}
+        style={{ backgroundColor: value === null ? defaultColor : getColor(value) }}
       />
-      <Box className={classes.color}>{value}</Box>
+      <Box className={classes.color}>{value || 'default'}</Box>
       <Popper id={id} anchorEl={anchorEl} open={Boolean(anchorEl)} placement={'left'}>
         <Paper className={classes.colorPopper}>
           <Typography>Basic 8 Colors</Typography>

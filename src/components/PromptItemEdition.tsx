@@ -41,9 +41,9 @@ export default function PromptItemEdition(props: Props) {
         }
       />
       <FormLabel>Foreground color</FormLabel>
-      <ColorPicker value={fgColor} onChange={onFgColorChange} />
+      <ColorPicker value={fgColor} defaultColor="white" onChange={onFgColorChange} />
       <FormLabel>Background color</FormLabel>
-      <ColorPicker value={bgColor} onChange={onBgColorChange} />
+      <ColorPicker value={bgColor} defaultColor="#3E3A39" onChange={onBgColorChange} />
     </FormGroup>
   );
 }

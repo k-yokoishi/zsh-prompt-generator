@@ -228,8 +228,8 @@ storiesOf('PromptItemList', module).add('initial state', () => (
 ));
 
 storiesOf('ColorPicker', module)
-  .add('Red', () => <ColorPicker value="red" onChange={action('pick')} />)
-  .add('220', () => <ColorPicker value={220} onChange={action('pick')} />);
+  .add('Red', () => <ColorPicker value="red" defaultColor="white" onChange={action('pick')} />)
+  .add('220', () => <ColorPicker value={220} defaultColor="white" onChange={action('pick')} />);
 
 storiesOf('PromptItemEdition', module)
   .add('bg:black, fg:magenta', () => (

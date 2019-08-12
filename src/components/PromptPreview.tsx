@@ -47,6 +47,7 @@ export default function PromptPreview(props: Props) {
             style={{
               color: p.fgColor === null ? 'white' : getColor(p.fgColor),
               backgroundColor: p.bgColor === null ? '#3E3A39' : getColor(p.bgColor),
+              fontWeight: p.bold ? 'bold' : undefined,
             }}
             key={i}
           >
