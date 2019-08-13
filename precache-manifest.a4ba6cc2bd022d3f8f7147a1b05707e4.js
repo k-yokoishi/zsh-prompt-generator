@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6013eeeb54b1189ac392626a694f6952",
+    "revision": "e9353b2602d28838bd060e2041ba8f75",
     "url": "/zsh-prompt-generator/index.html"
   },
   {
-    "revision": "cbcc280b247d79de8698",
+    "revision": "addb5acb0aa3053fba69",
     "url": "/zsh-prompt-generator/static/css/2.0d5f2bad.chunk.css"
   },
   {
-    "revision": "1619a10e2a23605cf70c",
+    "revision": "2a4c8cb977c430add3a5",
     "url": "/zsh-prompt-generator/static/css/main.a365ad36.chunk.css"
   },
   {
-    "revision": "cbcc280b247d79de8698",
-    "url": "/zsh-prompt-generator/static/js/2.1a0b6338.chunk.js"
+    "revision": "addb5acb0aa3053fba69",
+    "url": "/zsh-prompt-generator/static/js/2.36ea74b6.chunk.js"
   },
   {
-    "revision": "1619a10e2a23605cf70c",
-    "url": "/zsh-prompt-generator/static/js/main.1955f17b.chunk.js"
+    "revision": "2a4c8cb977c430add3a5",
+    "url": "/zsh-prompt-generator/static/js/main.5a165364.chunk.js"
   },
   {
     "revision": "27ca85b549ea1fcc53cc",
