@@ -10,6 +10,9 @@ export default function() {
       onItemClick={({ displayStr, shStr, promptStr }) =>
         dispatch(addPromptItem({ displayStr, shStr, promptStr }))
       }
+      onAddCustomText={({ displayStr, shStr, promptStr }) =>
+        dispatch(addPromptItem({ displayStr, shStr, promptStr }))
+      }
     />
   );
 }

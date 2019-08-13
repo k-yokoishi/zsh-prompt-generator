@@ -51,6 +51,7 @@ export default function PromptPreview(props: Props) {
             }}
             key={i}
           >
+            {' '}
             {p.promptStr}
           </Box>
         ))}

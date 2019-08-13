@@ -1,11 +1,15 @@
 import * as React from 'react';
+import AddIcon from '@material-ui/icons/Add';
+import Fab from '@material-ui/core/Fab';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import { makeStyles } from '@material-ui/styles';
+import TextField from '@material-ui/core/TextField';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 interface Props {
   onItemClick: (item: { displayStr: string; shStr: string; promptStr: string }) => void;
+  onAddCustomText: (item: { displayStr: string; shStr: string; promptStr: string }) => void;
 }
 
 interface PromptItem {
@@ -17,15 +21,21 @@ interface PromptItem {
   }>;
 }
 
-const useStyles = makeStyles({
-  nested: {
-    paddingLeft: '40px',
-  },
-});
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    nested: {
+      paddingLeft: '40px',
+    },
+    margin: {
+      margin: theme.spacing(1),
+    },
+  })
+);
 
 export default function PromptItemList(props: Props) {
-  const { onItemClick } = props;
+  const { onItemClick, onAddCustomText } = props;
   const classes = useStyles();
+  const [customText, setCustomText] = React.useState<string>('');
 
   const promptItems: PromptItem[] = [
     {
@@ -65,6 +75,33 @@ export default function PromptItemList(props: Props) {
           ))}
         </React.Fragment>
       ))}
+      <ListItem>
+        <ListItemText primary="Custom text" />
+      </ListItem>
+      <List disablePadding key="custom-text">
+        <ListItem className={classes.nested}>
+          <TextField
+            label="Custom text"
+            variant="outlined"
+            value={customText}
+            onChange={e => setCustomText(e.target.value)}
+          />
+          <Fab
+            variant="extended"
+            size="small"
+            color="primary"
+            aria-label="add"
+            className={classes.margin}
+            onClick={() => {
+              setCustomText('');
+              onAddCustomText({ displayStr: customText, shStr: customText, promptStr: customText });
+            }}
+          >
+            <AddIcon />
+            Add
+          </Fab>
+        </ListItem>
+      </List>
     </List>
   );
 }

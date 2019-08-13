@@ -224,7 +224,7 @@ storiesOf('ZshrcPreview', module)
   ));
 
 storiesOf('PromptItemList', module).add('initial state', () => (
-  <PromptItemList onItemClick={action('clicked')} />
+  <PromptItemList onItemClick={action('clicked')} onAddCustomText={action('custom text added')} />
 ));
 
 storiesOf('ColorPicker', module)

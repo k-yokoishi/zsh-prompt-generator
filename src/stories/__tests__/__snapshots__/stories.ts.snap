@@ -11,13 +11,13 @@ exports[`Storyshots ColorPicker 220 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-previewOuter-933 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-previewOuter-1011 MuiTypography-body1"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
       <div
-        className="MuiTypography-root makeStyles-previewInner-935 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewInner-1013 MuiTypography-body1"
         style={
           Object {
             "backgroundColor": "#ffd700",
@@ -25,7 +25,7 @@ exports[`Storyshots ColorPicker 220 1`] = `
         }
       />
       <div
-        className="MuiBox-root MuiBox-root-970 makeStyles-color-938"
+        className="MuiBox-root MuiBox-root-1048 makeStyles-color-1016"
       >
         220
       </div>
@@ -225,6 +225,33 @@ exports[`Storyshots ColorPicker 220 1`] = `
                     <span
                       style={Object {}}
                     >
+                      defaultColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          white
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
                       onChange
                     </span>
                     <span>
@@ -330,13 +357,13 @@ exports[`Storyshots ColorPicker Red 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-previewOuter-895 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-previewOuter-973 MuiTypography-body1"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
       <div
-        className="MuiTypography-root makeStyles-previewInner-897 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewInner-975 MuiTypography-body1"
         style={
           Object {
             "backgroundColor": "red",
@@ -344,7 +371,7 @@ exports[`Storyshots ColorPicker Red 1`] = `
         }
       />
       <div
-        className="MuiBox-root MuiBox-root-932 makeStyles-color-900"
+        className="MuiBox-root MuiBox-root-1010 makeStyles-color-978"
       >
         red
       </div>
@@ -535,6 +562,33 @@ exports[`Storyshots ColorPicker Red 1`] = `
                           }
                         >
                           red
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      defaultColor
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          white
                         </span>
                         "
                       </span>
@@ -58716,7 +58770,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1111 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1112 Mui-checked"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1189 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1190 Mui-checked"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -58738,7 +58792,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
               />
               <input
                 checked={true}
-                className="PrivateSwitchBase-input-1114 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1192 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -58760,13 +58814,13 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1134 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1212 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1136 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1214 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#ffffd7",
@@ -58774,7 +58828,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1141 makeStyles-color-1139"
+          className="MuiBox-root MuiBox-root-1219 makeStyles-color-1217"
         >
           230
         </div>
@@ -58785,13 +58839,13 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1134 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1212 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1136 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1214 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#5fd7d7",
@@ -58799,7 +58853,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1142 makeStyles-color-1139"
+          className="MuiBox-root MuiBox-root-1220 makeStyles-color-1217"
         >
           80
         </div>
@@ -59254,7 +59308,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1020 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1098 MuiSwitch-switchBase MuiSwitch-colorPrimary"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -59276,7 +59330,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
               />
               <input
                 checked={false}
-                className="PrivateSwitchBase-input-1023 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1101 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -59298,13 +59352,13 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1043 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1121 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1045 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1123 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "magenta",
@@ -59312,7 +59366,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1050 makeStyles-color-1048"
+          className="MuiBox-root MuiBox-root-1128 makeStyles-color-1126"
         >
           magenta
         </div>
@@ -59323,13 +59377,13 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1043 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1121 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1045 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1123 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "black",
@@ -59337,7 +59391,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1051 makeStyles-color-1048"
+          className="MuiBox-root MuiBox-root-1129 makeStyles-color-1126"
         >
           black
         </div>
@@ -60019,6 +60073,117 @@ exports[`Storyshots PromptItemList initial state 1`] = `
           </div>
         </div>
       </ul>
+      <li
+        className="MuiListItem-root MuiListItem-gutters"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemText-root"
+        >
+          <span
+            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+          >
+            Custom text
+          </span>
+        </div>
+      </li>
+      <ul
+        className="MuiList-root"
+      >
+        <li
+          className="MuiListItem-root makeStyles-nested-830 MuiListItem-gutters"
+          disabled={false}
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+              data-shrink={false}
+            >
+              Custom text
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              onClick={[Function]}
+            >
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-942 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-943"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+              <input
+                aria-invalid={false}
+                className="MuiInputBase-input MuiOutlinedInput-input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            aria-label="add"
+            className="MuiButtonBase-root MuiFab-root makeStyles-margin-831 MuiFab-extended MuiFab-primary MuiFab-sizeSmall"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+              Add
+            </span>
+          </button>
+        </li>
+      </ul>
     </ul>
   </div>
   <button
@@ -60209,6 +60374,32 @@ exports[`Storyshots PromptItemList initial state 1`] = `
                         }
                       </span>
                     </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      onAddCustomText
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#170",
+                            }
+                          }
+                        >
+                          actionHandler
+                        </span>
+                        }
+                      </span>
+                    </span>
                      
                   </span>
                 </span>
@@ -60305,9 +60496,11 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           (mypyenv)
         </div>
         <div
@@ -60316,9 +60509,11 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
             Object {
               "backgroundColor": "cyan",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           ~/work
         </div>
         <div
@@ -60327,9 +60522,11 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
             Object {
               "backgroundColor": "blue",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           alice
         </div>
         <div
@@ -60338,9 +60535,11 @@ exports[`Storyshots PromptPreview PROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           $
         </div>
       </div>
@@ -60904,9 +61103,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           (mypyenv)
         </div>
         <div
@@ -60915,9 +61116,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "cyan",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           ~/work
         </div>
         <div
@@ -60926,9 +61129,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "blue",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           alice
         </div>
         <div
@@ -60937,9 +61142,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           $
         </div>
       </div>
@@ -60952,9 +61159,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "magenta",
+              "fontWeight": undefined,
             }
           }
         >
+           
           master!*
         </div>
         <div
@@ -60963,9 +61172,11 @@ exports[`Storyshots PromptPreview PROMPT and RPROMPT 1`] = `
             Object {
               "backgroundColor": "black",
               "color": "white",
+              "fontWeight": undefined,
             }
           }
         >
+           
           [12:15]
         </div>
       </div>

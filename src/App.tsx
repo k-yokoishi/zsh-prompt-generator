@@ -28,10 +28,10 @@ function App() {
       <Provider store={store}>
         <Header />
         <Grid container direction="row" justify="space-between" spacing={3}>
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <PromptItemList />
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={7}>
             <Grid container direction="column">
               <Grid item className={classes.gridItem}>
                 <Typography variant="h5">PROMPT</Typography>
