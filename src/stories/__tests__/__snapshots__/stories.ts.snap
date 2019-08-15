@@ -11,13 +11,13 @@ exports[`Storyshots ColorPicker 220 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-previewOuter-1011 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-previewOuter-1134 MuiTypography-body1"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
       <div
-        className="MuiTypography-root makeStyles-previewInner-1013 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewInner-1136 MuiTypography-body1"
         style={
           Object {
             "backgroundColor": "#ffd700",
@@ -25,7 +25,7 @@ exports[`Storyshots ColorPicker 220 1`] = `
         }
       />
       <div
-        className="MuiBox-root MuiBox-root-1048 makeStyles-color-1016"
+        className="MuiBox-root MuiBox-root-1171 makeStyles-color-1139"
       >
         220
       </div>
@@ -357,13 +357,13 @@ exports[`Storyshots ColorPicker Red 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-previewOuter-973 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-previewOuter-1096 MuiTypography-body1"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
       <div
-        className="MuiTypography-root makeStyles-previewInner-975 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewInner-1098 MuiTypography-body1"
         style={
           Object {
             "backgroundColor": "red",
@@ -371,7 +371,7 @@ exports[`Storyshots ColorPicker Red 1`] = `
         }
       />
       <div
-        className="MuiBox-root MuiBox-root-1010 makeStyles-color-978"
+        className="MuiBox-root MuiBox-root-1133 makeStyles-color-1101"
       >
         red
       </div>
@@ -58770,7 +58770,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1189 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1190 Mui-checked"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1312 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1313 Mui-checked"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -58792,7 +58792,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
               />
               <input
                 checked={true}
-                className="PrivateSwitchBase-input-1192 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1315 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -58814,13 +58814,13 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1212 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1335 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1214 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1337 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#ffffd7",
@@ -58828,7 +58828,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1219 makeStyles-color-1217"
+          className="MuiBox-root MuiBox-root-1342 makeStyles-color-1340"
         >
           230
         </div>
@@ -58839,13 +58839,13 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1212 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1335 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1214 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1337 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#5fd7d7",
@@ -58853,7 +58853,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1220 makeStyles-color-1217"
+          className="MuiBox-root MuiBox-root-1343 makeStyles-color-1340"
         >
           80
         </div>
@@ -59308,7 +59308,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1098 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1221 MuiSwitch-switchBase MuiSwitch-colorPrimary"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -59330,7 +59330,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
               />
               <input
                 checked={false}
-                className="PrivateSwitchBase-input-1101 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1224 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -59352,13 +59352,13 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1121 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1244 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1123 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1246 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "magenta",
@@ -59366,7 +59366,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1128 makeStyles-color-1126"
+          className="MuiBox-root MuiBox-root-1251 makeStyles-color-1249"
         >
           magenta
         </div>
@@ -59377,13 +59377,13 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1121 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1244 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1123 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1246 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "black",
@@ -59391,7 +59391,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1129 makeStyles-color-1126"
+          className="MuiBox-root MuiBox-root-1252 makeStyles-color-1249"
         >
           black
         </div>
@@ -59872,7 +59872,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -59904,7 +59904,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -59936,7 +59936,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -59982,7 +59982,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -60014,7 +60014,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -60046,7 +60046,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
       >
         <div
           aria-disabled={false}
-          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-830 MuiListItem-gutters MuiListItem-button"
+          className="MuiButtonBase-root MuiListItem-root makeStyles-nested-953 MuiListItem-gutters MuiListItem-button"
           onBlur={[Function]}
           onClick={[Function]}
           onDragLeave={[Function]}
@@ -60091,7 +60091,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
         className="MuiList-root"
       >
         <li
-          className="MuiListItem-root makeStyles-nested-830 MuiListItem-gutters"
+          className="MuiListItem-root makeStyles-nested-953 MuiListItem-gutters"
           disabled={false}
         >
           <div
@@ -60109,7 +60109,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
             >
               <fieldset
                 aria-hidden={true}
-                className="PrivateNotchedOutline-root-942 MuiOutlinedInput-notchedOutline"
+                className="PrivateNotchedOutline-root-1065 MuiOutlinedInput-notchedOutline"
                 style={
                   Object {
                     "paddingLeft": 8,
@@ -60117,7 +60117,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
                 }
               >
                 <legend
-                  className="PrivateNotchedOutline-legend-943"
+                  className="PrivateNotchedOutline-legend-1066"
                   style={
                     Object {
                       "width": 0.01,
@@ -60148,7 +60148,7 @@ exports[`Storyshots PromptItemList initial state 1`] = `
           </div>
           <button
             aria-label="add"
-            className="MuiButtonBase-root MuiFab-root makeStyles-margin-831 MuiFab-extended MuiFab-primary MuiFab-sizeSmall"
+            className="MuiButtonBase-root MuiFab-root makeStyles-margin-954 MuiFab-extended MuiFab-primary MuiFab-sizeSmall"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -61914,8 +61914,53 @@ exports[`Storyshots ZshrcPreview PROMPT 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-zshrcPreview-768 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-zshrcPreview-809 MuiTypography-body1"
     >
+      <button
+        aria-describedby={null}
+        aria-label="copy"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-copyIconButton-810"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        title="Copy to clipboard"
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-copyIcon-811"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
       <code>
         PROMPT="
         %K{black}%F{white}(mypyenv)%f%k
@@ -62555,8 +62600,53 @@ exports[`Storyshots ZshrcPreview PROMPT and RPROMPT 1`] = `
     }
   >
     <div
-      className="MuiTypography-root makeStyles-zshrcPreview-799 MuiTypography-body1"
+      className="MuiTypography-root makeStyles-zshrcPreview-881 MuiTypography-body1"
     >
+      <button
+        aria-describedby={null}
+        aria-label="copy"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-copyIconButton-882"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        title="Copy to clipboard"
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-copyIcon-883"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
       <code>
         PROMPT="
         %K{black}%F{white}(mypyenv)%f%k
@@ -63448,6 +63538,51 @@ exports[`Storyshots ZshrcPreview initial state 1`] = `
     <div
       className="MuiTypography-root makeStyles-zshrcPreview-737 MuiTypography-body1"
     >
+      <button
+        aria-describedby={null}
+        aria-label="copy"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-copyIconButton-738"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        title="Copy to clipboard"
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root makeStyles-copyIcon-739"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4H8c-1.1 0-1.99.9-1.99 2L6 21c0 1.1.89 2 1.99 2H19c1.1 0 2-.9 2-2V11l-6-6zM8 21V7h6v5h5v9H8z"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
       <code>
         PROMPT="
         "
