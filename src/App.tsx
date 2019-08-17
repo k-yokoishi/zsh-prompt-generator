@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme: Theme) =>
       marginTop: theme.spacing(2),
       marginBottom: theme.spacing(2),
     },
+    scrollable: {
+      maxHeight: 'calc(100vh - 64px)', // Header height is 64px
+      overflow: 'auto',
+    },
   })
 );
 
@@ -29,7 +33,9 @@ function App() {
         <Header />
         <Grid container direction="row" justify="space-between" spacing={3}>
           <Grid item xs={3}>
-            <PromptItemList />
+            <div className={classes.scrollable}>
+              <PromptItemList />
+            </div>
           </Grid>
           <Grid item xs={7}>
             <Grid container direction="column">
