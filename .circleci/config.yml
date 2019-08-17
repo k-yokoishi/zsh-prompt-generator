@@ -27,7 +27,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
       - run: yarn install
-      - run: npm install -g firebase-tools
+      - run: sudo npm install -g firebase-tools
       - save_cache:
           paths:
             - node_modules
