@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
     scrollable: {
       maxHeight: 'calc(100vh - 64px)', // Header height is 64px
       overflow: 'auto',
+      borderRight: 'solid 1px lightgray',
     },
   })
 );

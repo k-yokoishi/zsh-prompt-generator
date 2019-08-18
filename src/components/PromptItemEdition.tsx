@@ -4,6 +4,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import ColorPicker from '../components/ColorPicker';
 import { Color } from '../types';
 
@@ -17,16 +18,20 @@ interface Props {
   onBgColorChange: (color: Color | number) => void;
 }
 
-export default function PromptItemEdition(props: Props) {
-  const {
-    displayStr,
-    bold,
-    fgColor,
-    bgColor,
-    onBoldChange,
-    onFgColorChange,
-    onBgColorChange,
-  } = props;
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({ formField: { margin: theme.spacing(1) } })
+);
+
+const PromptItemEdition: React.FC<Props> = ({
+  displayStr,
+  bold,
+  fgColor,
+  bgColor,
+  onBoldChange,
+  onFgColorChange,
+  onBgColorChange,
+}) => {
+  const classes = useStyles();
   return (
     <FormGroup>
       <Typography>{displayStr}</Typography>
@@ -40,10 +45,12 @@ export default function PromptItemEdition(props: Props) {
           />
         }
       />
-      <FormLabel>Foreground color</FormLabel>
+      <FormLabel className={classes.formField}>Foreground color</FormLabel>
       <ColorPicker value={fgColor} defaultColor="white" onChange={onFgColorChange} />
-      <FormLabel>Background color</FormLabel>
+      <FormLabel className={classes.formField}>Background color</FormLabel>
       <ColorPicker value={bgColor} defaultColor="#3E3A39" onChange={onBgColorChange} />
     </FormGroup>
   );
-}
+};
+
+export default PromptItemEdition;

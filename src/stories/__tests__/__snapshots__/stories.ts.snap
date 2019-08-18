@@ -58790,7 +58790,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1322 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1323 Mui-checked"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1324 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1325 Mui-checked"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -58812,7 +58812,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
               />
               <input
                 checked={true}
-                className="PrivateSwitchBase-input-1325 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1327 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -58829,18 +58829,18 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
         </span>
       </label>
       <label
-        className="MuiFormLabel-root"
+        className="MuiFormLabel-root makeStyles-formField-1274"
       >
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1345 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1347 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1347 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1349 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#ffffd7",
@@ -58848,24 +58848,24 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1352 makeStyles-color-1350"
+          className="MuiBox-root MuiBox-root-1354 makeStyles-color-1352"
         >
           230
         </div>
       </div>
       <label
-        className="MuiFormLabel-root"
+        className="MuiFormLabel-root makeStyles-formField-1274"
       >
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1345 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1347 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1347 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1349 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "#5fd7d7",
@@ -58873,7 +58873,7 @@ exports[`Storyshots PromptItemEdition bg:80, fg:230, bold 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1353 makeStyles-color-1350"
+          className="MuiBox-root MuiBox-root-1355 makeStyles-color-1352"
         >
           80
         </div>
@@ -59328,7 +59328,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         >
           <span
             aria-disabled={false}
-            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1231 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+            className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1232 MuiSwitch-switchBase MuiSwitch-colorPrimary"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -59350,7 +59350,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
               />
               <input
                 checked={false}
-                className="PrivateSwitchBase-input-1234 MuiSwitch-input"
+                className="PrivateSwitchBase-input-1235 MuiSwitch-input"
                 onChange={[Function]}
                 type="checkbox"
               />
@@ -59367,18 +59367,18 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
         </span>
       </label>
       <label
-        className="MuiFormLabel-root"
+        className="MuiFormLabel-root makeStyles-formField-1182"
       >
         Foreground color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1254 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1255 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1256 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1257 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "magenta",
@@ -59386,24 +59386,24 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1261 makeStyles-color-1259"
+          className="MuiBox-root MuiBox-root-1262 makeStyles-color-1260"
         >
           magenta
         </div>
       </div>
       <label
-        className="MuiFormLabel-root"
+        className="MuiFormLabel-root makeStyles-formField-1182"
       >
         Background color
       </label>
       <div
-        className="MuiTypography-root makeStyles-previewOuter-1254 MuiTypography-body1"
+        className="MuiTypography-root makeStyles-previewOuter-1255 MuiTypography-body1"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
       >
         <div
-          className="MuiTypography-root makeStyles-previewInner-1256 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-previewInner-1257 MuiTypography-body1"
           style={
             Object {
               "backgroundColor": "black",
@@ -59411,7 +59411,7 @@ exports[`Storyshots PromptItemEdition bg:black, fg:magenta 1`] = `
           }
         />
         <div
-          className="MuiBox-root MuiBox-root-1262 makeStyles-color-1259"
+          className="MuiBox-root MuiBox-root-1263 makeStyles-color-1260"
         >
           black
         </div>
