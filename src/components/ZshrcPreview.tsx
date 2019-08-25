@@ -57,8 +57,10 @@ export default function ZshrcPreview(props: Props) {
 
   const onCopy = () => {
     copy(
-      `PROMPT="${promptItems.map(p => toPreview(p))}"` +
-        (rpromptItems.length > 0 ? `\nRPROMPT="${rpromptItems.map(p => toPreview(p))}"` : '')
+      `PROMPT="${promptItems.map(p => toPreview(p)).join('')}"` +
+        (rpromptItems.length > 0
+          ? `\nRPROMPT="${rpromptItems.map(p => toPreview(p)).join('')}"`
+          : '')
     );
     setCopied(true);
   };
