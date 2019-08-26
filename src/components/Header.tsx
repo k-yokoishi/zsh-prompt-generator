@@ -1,12 +1,12 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import CodeICon from '@material-ui/icons/Code';
+import Tooltip from '@material-ui/core/Tooltip';
+import { GoMarkGithub } from 'react-icons/go';
 import clsx from 'clsx';
 import LogoText from '../components/LogoText';
 
@@ -45,14 +45,14 @@ const Header: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <Link
-              className={classes.link}
-              component={Button}
-              href="https://github.com/k-yokoishi/zsh-prompt-generator"
-            >
-              <CodeICon className={classes.buttonIcon} />
-              Source on GitHub
-            </Link>
+            <Tooltip title="Bug reports or feature requests">
+              <Link
+                className={classes.link}
+                href="https://github.com/k-yokoishi/zsh-prompt-generator"
+              >
+                <GoMarkGithub size="2em" />
+              </Link>
+            </Tooltip>
           </Grid>
         </Grid>
       </Toolbar>
